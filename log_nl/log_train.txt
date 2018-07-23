@@ -1,0 +1,1531 @@
+Namespace(checkpoint='./examples/fpnssd/checkpoint/ckpt2.pth', gpu='0', log_dir='log_nl', lr=0.001, model='./examples/fpnssd/model/fpnssd512_resnet50.pth', resume=False)
+==> Preparing dataset..
+==> Building model..
+
+Epoch: 0
+loc_loss: 0.111 | cls_loss: 2.829 | train_loss: 2.939 | avg_loss: 2.939 [1/464]
+loc_loss: 0.118 | cls_loss: 2.695 | train_loss: 2.710 | avg_loss: 2.813 [101/464]
+loc_loss: 0.106 | cls_loss: 2.529 | train_loss: 2.583 | avg_loss: 2.635 [201/464]
+loc_loss: 0.116 | cls_loss: 2.425 | train_loss: 2.472 | avg_loss: 2.540 [301/464]
+loc_loss: 0.099 | cls_loss: 2.356 | train_loss: 2.416 | avg_loss: 2.455 [401/464]
+
+Test
+loc_loss: 0.074 | cls_loss: 2.306
+#################### avg_loss: 2.381 ####################
+Saving..
+
+Epoch: 1
+loc_loss: 0.100 | cls_loss: 2.327 | train_loss: 2.394 | avg_loss: 2.427 [1/464]
+loc_loss: 0.099 | cls_loss: 2.296 | train_loss: 2.379 | avg_loss: 2.395 [101/464]
+loc_loss: 0.098 | cls_loss: 2.279 | train_loss: 2.340 | avg_loss: 2.376 [201/464]
+loc_loss: 0.093 | cls_loss: 2.268 | train_loss: 2.363 | avg_loss: 2.361 [301/464]
+loc_loss: 0.087 | cls_loss: 2.263 | train_loss: 2.325 | avg_loss: 2.350 [401/464]
+
+Test
+loc_loss: 0.072 | cls_loss: 2.257
+#################### avg_loss: 2.329 ####################
+Saving..
+
+Epoch: 2
+loc_loss: 0.087 | cls_loss: 2.261 | train_loss: 2.370 | avg_loss: 2.348 [1/464]
+loc_loss: 0.087 | cls_loss: 2.259 | train_loss: 2.338 | avg_loss: 2.345 [101/464]
+loc_loss: 0.084 | cls_loss: 2.257 | train_loss: 2.338 | avg_loss: 2.341 [201/464]
+loc_loss: 0.084 | cls_loss: 2.257 | train_loss: 2.352 | avg_loss: 2.341 [301/464]
+loc_loss: 0.082 | cls_loss: 2.256 | train_loss: 2.353 | avg_loss: 2.338 [401/464]
+
+Test
+loc_loss: 0.068 | cls_loss: 2.253
+#################### avg_loss: 2.320 ####################
+Saving..
+
+Epoch: 3
+loc_loss: 0.080 | cls_loss: 2.255 | train_loss: 2.327 | avg_loss: 2.336 [1/464]
+loc_loss: 0.078 | cls_loss: 2.254 | train_loss: 2.318 | avg_loss: 2.332 [101/464]
+loc_loss: 0.077 | cls_loss: 2.254 | train_loss: 2.352 | avg_loss: 2.330 [201/464]
+loc_loss: 0.075 | cls_loss: 2.253 | train_loss: 2.336 | avg_loss: 2.328 [301/464]
+loc_loss: 0.074 | cls_loss: 2.252 | train_loss: 2.324 | avg_loss: 2.326 [401/464]
+
+Test
+loc_loss: 0.061 | cls_loss: 2.249
+#################### avg_loss: 2.310 ####################
+Saving..
+
+Epoch: 4
+loc_loss: 0.073 | cls_loss: 2.252 | train_loss: 2.327 | avg_loss: 2.325 [1/464]
+loc_loss: 0.069 | cls_loss: 2.251 | train_loss: 2.316 | avg_loss: 2.320 [101/464]
+loc_loss: 0.067 | cls_loss: 2.251 | train_loss: 2.309 | avg_loss: 2.318 [201/464]
+loc_loss: 0.064 | cls_loss: 2.250 | train_loss: 2.307 | avg_loss: 2.314 [301/464]
+loc_loss: 0.065 | cls_loss: 2.250 | train_loss: 2.299 | avg_loss: 2.315 [401/464]
+
+Test
+loc_loss: 0.053 | cls_loss: 2.246
+#################### avg_loss: 2.300 ####################
+Saving..
+
+Epoch: 5
+loc_loss: 0.063 | cls_loss: 2.249 | train_loss: 2.312 | avg_loss: 2.312 [1/464]
+loc_loss: 0.062 | cls_loss: 2.249 | train_loss: 2.321 | avg_loss: 2.311 [101/464]
+loc_loss: 0.062 | cls_loss: 2.248 | train_loss: 2.287 | avg_loss: 2.311 [201/464]
+loc_loss: 0.059 | cls_loss: 2.248 | train_loss: 2.288 | avg_loss: 2.306 [301/464]
+loc_loss: 0.059 | cls_loss: 2.246 | train_loss: 2.316 | avg_loss: 2.305 [401/464]
+
+Test
+loc_loss: 0.048 | cls_loss: 2.236
+#################### avg_loss: 2.284 ####################
+Saving..
+
+Epoch: 6
+loc_loss: 0.058 | cls_loss: 2.245 | train_loss: 2.278 | avg_loss: 2.303 [1/464]
+loc_loss: 0.057 | cls_loss: 2.243 | train_loss: 2.254 | avg_loss: 2.300 [101/464]
+loc_loss: 0.053 | cls_loss: 2.241 | train_loss: 2.302 | avg_loss: 2.294 [201/464]
+loc_loss: 0.053 | cls_loss: 2.236 | train_loss: 2.262 | avg_loss: 2.290 [301/464]
+loc_loss: 0.054 | cls_loss: 2.235 | train_loss: 2.224 | avg_loss: 2.289 [401/464]
+
+Test
+loc_loss: 0.043 | cls_loss: 2.185
+#################### avg_loss: 2.228 ####################
+Saving..
+
+Epoch: 7
+loc_loss: 0.052 | cls_loss: 2.227 | train_loss: 2.236 | avg_loss: 2.279 [1/464]
+loc_loss: 0.050 | cls_loss: 2.211 | train_loss: 2.303 | avg_loss: 2.261 [101/464]
+loc_loss: 0.050 | cls_loss: 2.200 | train_loss: 2.313 | avg_loss: 2.251 [201/464]
+loc_loss: 0.052 | cls_loss: 2.179 | train_loss: 2.201 | avg_loss: 2.231 [301/464]
+loc_loss: 0.051 | cls_loss: 2.160 | train_loss: 2.135 | avg_loss: 2.211 [401/464]
+
+Test
+loc_loss: 0.041 | cls_loss: 2.088
+#################### avg_loss: 2.129 ####################
+Saving..
+
+Epoch: 8
+loc_loss: 0.048 | cls_loss: 2.144 | train_loss: 2.151 | avg_loss: 2.193 [1/464]
+loc_loss: 0.047 | cls_loss: 2.096 | train_loss: 2.122 | avg_loss: 2.144 [101/464]
+loc_loss: 0.048 | cls_loss: 2.068 | train_loss: 2.095 | avg_loss: 2.116 [201/464]
+loc_loss: 0.047 | cls_loss: 2.048 | train_loss: 2.204 | avg_loss: 2.095 [301/464]
+loc_loss: 0.044 | cls_loss: 2.006 | train_loss: 2.033 | avg_loss: 2.050 [401/464]
+
+Test
+loc_loss: 0.037 | cls_loss: 1.891
+#################### avg_loss: 1.929 ####################
+Saving..
+
+Epoch: 9
+loc_loss: 0.044 | cls_loss: 1.983 | train_loss: 2.005 | avg_loss: 2.027 [1/464]
+loc_loss: 0.043 | cls_loss: 1.969 | train_loss: 1.867 | avg_loss: 2.012 [101/464]
+loc_loss: 0.043 | cls_loss: 1.924 | train_loss: 2.014 | avg_loss: 1.967 [201/464]
+loc_loss: 0.041 | cls_loss: 1.899 | train_loss: 1.798 | avg_loss: 1.940 [301/464]
+loc_loss: 0.039 | cls_loss: 1.845 | train_loss: 1.604 | avg_loss: 1.884 [401/464]
+
+Test
+loc_loss: 0.032 | cls_loss: 1.757
+#################### avg_loss: 1.789 ####################
+Saving..
+
+Epoch: 10
+loc_loss: 0.040 | cls_loss: 1.846 | train_loss: 1.842 | avg_loss: 1.886 [1/464]
+loc_loss: 0.038 | cls_loss: 1.818 | train_loss: 1.624 | avg_loss: 1.857 [101/464]
+loc_loss: 0.039 | cls_loss: 1.840 | train_loss: 1.849 | avg_loss: 1.879 [201/464]
+loc_loss: 0.037 | cls_loss: 1.807 | train_loss: 2.068 | avg_loss: 1.844 [301/464]
+loc_loss: 0.038 | cls_loss: 1.798 | train_loss: 1.907 | avg_loss: 1.835 [401/464]
+
+Test
+loc_loss: 0.029 | cls_loss: 1.688
+#################### avg_loss: 1.717 ####################
+Saving..
+
+Epoch: 11
+loc_loss: 0.037 | cls_loss: 1.775 | train_loss: 1.879 | avg_loss: 1.811 [1/464]
+loc_loss: 0.037 | cls_loss: 1.740 | train_loss: 1.828 | avg_loss: 1.777 [101/464]
+loc_loss: 0.036 | cls_loss: 1.737 | train_loss: 1.827 | avg_loss: 1.773 [201/464]
+loc_loss: 0.040 | cls_loss: 1.754 | train_loss: 1.590 | avg_loss: 1.794 [301/464]
+loc_loss: 0.035 | cls_loss: 1.719 | train_loss: 1.838 | avg_loss: 1.754 [401/464]
+
+Test
+loc_loss: 0.029 | cls_loss: 1.685
+#################### avg_loss: 1.714 ####################
+Saving..
+
+Epoch: 12
+loc_loss: 0.035 | cls_loss: 1.724 | train_loss: 2.110 | avg_loss: 1.759 [1/464]
+loc_loss: 0.036 | cls_loss: 1.723 | train_loss: 1.970 | avg_loss: 1.759 [101/464]
+loc_loss: 0.033 | cls_loss: 1.653 | train_loss: 1.684 | avg_loss: 1.686 [201/464]
+loc_loss: 0.035 | cls_loss: 1.697 | train_loss: 1.884 | avg_loss: 1.732 [301/464]
+loc_loss: 0.037 | cls_loss: 1.697 | train_loss: 1.327 | avg_loss: 1.735 [401/464]
+
+Test
+loc_loss: 0.027 | cls_loss: 1.590
+#################### avg_loss: 1.617 ####################
+Saving..
+
+Epoch: 13
+loc_loss: 0.035 | cls_loss: 1.660 | train_loss: 1.777 | avg_loss: 1.695 [1/464]
+loc_loss: 0.036 | cls_loss: 1.680 | train_loss: 1.436 | avg_loss: 1.716 [101/464]
+loc_loss: 0.031 | cls_loss: 1.634 | train_loss: 1.619 | avg_loss: 1.665 [201/464]
+loc_loss: 0.033 | cls_loss: 1.654 | train_loss: 1.504 | avg_loss: 1.687 [301/464]
+loc_loss: 0.033 | cls_loss: 1.664 | train_loss: 1.544 | avg_loss: 1.697 [401/464]
+
+Test
+loc_loss: 0.028 | cls_loss: 1.629
+#################### avg_loss: 1.656 ####################
+
+Epoch: 14
+loc_loss: 0.031 | cls_loss: 1.644 | train_loss: 1.762 | avg_loss: 1.675 [1/464]
+loc_loss: 0.031 | cls_loss: 1.595 | train_loss: 1.688 | avg_loss: 1.625 [101/464]
+loc_loss: 0.032 | cls_loss: 1.621 | train_loss: 2.000 | avg_loss: 1.653 [201/464]
+loc_loss: 0.031 | cls_loss: 1.587 | train_loss: 1.645 | avg_loss: 1.618 [301/464]
+loc_loss: 0.031 | cls_loss: 1.604 | train_loss: 1.582 | avg_loss: 1.636 [401/464]
+
+Test
+loc_loss: 0.026 | cls_loss: 1.540
+#################### avg_loss: 1.566 ####################
+Saving..
+
+Epoch: 15
+loc_loss: 0.031 | cls_loss: 1.593 | train_loss: 1.867 | avg_loss: 1.624 [1/464]
+loc_loss: 0.031 | cls_loss: 1.598 | train_loss: 1.735 | avg_loss: 1.629 [101/464]
+loc_loss: 0.031 | cls_loss: 1.565 | train_loss: 1.428 | avg_loss: 1.597 [201/464]
+loc_loss: 0.029 | cls_loss: 1.593 | train_loss: 1.651 | avg_loss: 1.622 [301/464]
+loc_loss: 0.029 | cls_loss: 1.589 | train_loss: 1.646 | avg_loss: 1.617 [401/464]
+
+Test
+loc_loss: 0.026 | cls_loss: 1.558
+#################### avg_loss: 1.584 ####################
+
+Epoch: 16
+loc_loss: 0.030 | cls_loss: 1.558 | train_loss: 1.542 | avg_loss: 1.587 [1/464]
+loc_loss: 0.029 | cls_loss: 1.545 | train_loss: 1.522 | avg_loss: 1.574 [101/464]
+loc_loss: 0.027 | cls_loss: 1.527 | train_loss: 1.649 | avg_loss: 1.554 [201/464]
+loc_loss: 0.028 | cls_loss: 1.535 | train_loss: 1.177 | avg_loss: 1.563 [301/464]
+loc_loss: 0.026 | cls_loss: 1.498 | train_loss: 1.598 | avg_loss: 1.524 [401/464]
+
+Test
+loc_loss: 0.026 | cls_loss: 1.553
+#################### avg_loss: 1.580 ####################
+
+Epoch: 17
+loc_loss: 0.027 | cls_loss: 1.528 | train_loss: 1.600 | avg_loss: 1.555 [1/464]
+loc_loss: 0.028 | cls_loss: 1.501 | train_loss: 1.985 | avg_loss: 1.529 [101/464]
+loc_loss: 0.027 | cls_loss: 1.487 | train_loss: 1.301 | avg_loss: 1.513 [201/464]
+loc_loss: 0.030 | cls_loss: 1.578 | train_loss: 1.288 | avg_loss: 1.608 [301/464]
+loc_loss: 0.027 | cls_loss: 1.479 | train_loss: 1.783 | avg_loss: 1.505 [401/464]
+
+Test
+loc_loss: 0.025 | cls_loss: 1.530
+#################### avg_loss: 1.555 ####################
+Saving..
+
+Epoch: 18
+loc_loss: 0.028 | cls_loss: 1.501 | train_loss: 1.443 | avg_loss: 1.529 [1/464]
+loc_loss: 0.027 | cls_loss: 1.501 | train_loss: 1.562 | avg_loss: 1.528 [101/464]
+loc_loss: 0.027 | cls_loss: 1.488 | train_loss: 1.377 | avg_loss: 1.515 [201/464]
+loc_loss: 0.027 | cls_loss: 1.491 | train_loss: 1.428 | avg_loss: 1.518 [301/464]
+loc_loss: 0.026 | cls_loss: 1.443 | train_loss: 1.256 | avg_loss: 1.469 [401/464]
+
+Test
+loc_loss: 0.025 | cls_loss: 1.518
+#################### avg_loss: 1.542 ####################
+Saving..
+
+Epoch: 19
+loc_loss: 0.027 | cls_loss: 1.446 | train_loss: 1.464 | avg_loss: 1.473 [1/464]
+loc_loss: 0.028 | cls_loss: 1.503 | train_loss: 1.463 | avg_loss: 1.531 [101/464]
+loc_loss: 0.025 | cls_loss: 1.414 | train_loss: 1.256 | avg_loss: 1.439 [201/464]
+loc_loss: 0.026 | cls_loss: 1.410 | train_loss: 1.450 | avg_loss: 1.435 [301/464]
+loc_loss: 0.026 | cls_loss: 1.437 | train_loss: 1.360 | avg_loss: 1.463 [401/464]
+
+Test
+loc_loss: 0.024 | cls_loss: 1.505
+#################### avg_loss: 1.529 ####################
+Saving..
+
+Epoch: 20
+loc_loss: 0.026 | cls_loss: 1.413 | train_loss: 1.658 | avg_loss: 1.439 [1/464]
+loc_loss: 0.025 | cls_loss: 1.424 | train_loss: 1.383 | avg_loss: 1.449 [101/464]
+loc_loss: 0.026 | cls_loss: 1.469 | train_loss: 1.272 | avg_loss: 1.495 [201/464]
+loc_loss: 0.022 | cls_loss: 1.374 | train_loss: 1.544 | avg_loss: 1.396 [301/464]
+loc_loss: 0.025 | cls_loss: 1.438 | train_loss: 1.097 | avg_loss: 1.463 [401/464]
+
+Test
+loc_loss: 0.024 | cls_loss: 1.456
+#################### avg_loss: 1.480 ####################
+Saving..
+
+Epoch: 21
+loc_loss: 0.025 | cls_loss: 1.451 | train_loss: 1.185 | avg_loss: 1.477 [1/464]
+loc_loss: 0.024 | cls_loss: 1.393 | train_loss: 1.595 | avg_loss: 1.417 [101/464]
+loc_loss: 0.025 | cls_loss: 1.362 | train_loss: 1.432 | avg_loss: 1.386 [201/464]
+loc_loss: 0.024 | cls_loss: 1.416 | train_loss: 1.102 | avg_loss: 1.440 [301/464]
+loc_loss: 0.027 | cls_loss: 1.472 | train_loss: 1.646 | avg_loss: 1.500 [401/464]
+
+Test
+loc_loss: 0.023 | cls_loss: 1.409
+#################### avg_loss: 1.432 ####################
+Saving..
+
+Epoch: 22
+loc_loss: 0.025 | cls_loss: 1.434 | train_loss: 1.119 | avg_loss: 1.460 [1/464]
+loc_loss: 0.025 | cls_loss: 1.377 | train_loss: 1.231 | avg_loss: 1.403 [101/464]
+loc_loss: 0.026 | cls_loss: 1.404 | train_loss: 1.516 | avg_loss: 1.430 [201/464]
+loc_loss: 0.025 | cls_loss: 1.386 | train_loss: 1.215 | avg_loss: 1.411 [301/464]
+loc_loss: 0.024 | cls_loss: 1.391 | train_loss: 1.437 | avg_loss: 1.415 [401/464]
+
+Test
+loc_loss: 0.022 | cls_loss: 1.444
+#################### avg_loss: 1.467 ####################
+
+Epoch: 23
+loc_loss: 0.024 | cls_loss: 1.381 | train_loss: 1.317 | avg_loss: 1.405 [1/464]
+loc_loss: 0.024 | cls_loss: 1.366 | train_loss: 1.378 | avg_loss: 1.390 [101/464]
+loc_loss: 0.023 | cls_loss: 1.361 | train_loss: 1.184 | avg_loss: 1.384 [201/464]
+loc_loss: 0.024 | cls_loss: 1.422 | train_loss: 1.640 | avg_loss: 1.447 [301/464]
+loc_loss: 0.023 | cls_loss: 1.329 | train_loss: 1.407 | avg_loss: 1.352 [401/464]
+
+Test
+loc_loss: 0.021 | cls_loss: 1.399
+#################### avg_loss: 1.421 ####################
+Saving..
+
+Epoch: 24
+loc_loss: 0.024 | cls_loss: 1.394 | train_loss: 1.261 | avg_loss: 1.418 [1/464]
+loc_loss: 0.024 | cls_loss: 1.378 | train_loss: 1.462 | avg_loss: 1.402 [101/464]
+loc_loss: 0.024 | cls_loss: 1.361 | train_loss: 1.347 | avg_loss: 1.385 [201/464]
+loc_loss: 0.023 | cls_loss: 1.358 | train_loss: 1.254 | avg_loss: 1.381 [301/464]
+loc_loss: 0.026 | cls_loss: 1.419 | train_loss: 1.320 | avg_loss: 1.444 [401/464]
+
+Test
+loc_loss: 0.022 | cls_loss: 1.436
+#################### avg_loss: 1.458 ####################
+
+Epoch: 25
+loc_loss: 0.024 | cls_loss: 1.357 | train_loss: 1.322 | avg_loss: 1.381 [1/464]
+loc_loss: 0.023 | cls_loss: 1.356 | train_loss: 1.576 | avg_loss: 1.378 [101/464]
+loc_loss: 0.023 | cls_loss: 1.366 | train_loss: 1.036 | avg_loss: 1.389 [201/464]
+loc_loss: 0.023 | cls_loss: 1.337 | train_loss: 1.334 | avg_loss: 1.360 [301/464]
+loc_loss: 0.024 | cls_loss: 1.341 | train_loss: 1.361 | avg_loss: 1.365 [401/464]
+
+Test
+loc_loss: 0.022 | cls_loss: 1.454
+#################### avg_loss: 1.475 ####################
+
+Epoch: 26
+loc_loss: 0.025 | cls_loss: 1.360 | train_loss: 1.577 | avg_loss: 1.385 [1/464]
+loc_loss: 0.023 | cls_loss: 1.289 | train_loss: 1.385 | avg_loss: 1.312 [101/464]
+loc_loss: 0.022 | cls_loss: 1.305 | train_loss: 1.133 | avg_loss: 1.327 [201/464]
+loc_loss: 0.023 | cls_loss: 1.312 | train_loss: 1.159 | avg_loss: 1.335 [301/464]
+loc_loss: 0.022 | cls_loss: 1.318 | train_loss: 0.977 | avg_loss: 1.340 [401/464]
+
+Test
+loc_loss: 0.023 | cls_loss: 1.425
+#################### avg_loss: 1.448 ####################
+
+Epoch: 27
+loc_loss: 0.022 | cls_loss: 1.351 | train_loss: 1.602 | avg_loss: 1.373 [1/464]
+loc_loss: 0.023 | cls_loss: 1.305 | train_loss: 1.304 | avg_loss: 1.328 [101/464]
+loc_loss: 0.022 | cls_loss: 1.332 | train_loss: 0.953 | avg_loss: 1.354 [201/464]
+loc_loss: 0.022 | cls_loss: 1.326 | train_loss: 1.758 | avg_loss: 1.348 [301/464]
+loc_loss: 0.021 | cls_loss: 1.283 | train_loss: 1.432 | avg_loss: 1.304 [401/464]
+
+Test
+loc_loss: 0.021 | cls_loss: 1.388
+#################### avg_loss: 1.410 ####################
+Saving..
+
+Epoch: 28
+loc_loss: 0.021 | cls_loss: 1.298 | train_loss: 1.179 | avg_loss: 1.320 [1/464]
+loc_loss: 0.023 | cls_loss: 1.308 | train_loss: 1.684 | avg_loss: 1.331 [101/464]
+loc_loss: 0.022 | cls_loss: 1.317 | train_loss: 1.912 | avg_loss: 1.339 [201/464]
+loc_loss: 0.021 | cls_loss: 1.281 | train_loss: 1.182 | avg_loss: 1.302 [301/464]
+loc_loss: 0.022 | cls_loss: 1.324 | train_loss: 1.415 | avg_loss: 1.346 [401/464]
+
+Test
+loc_loss: 0.021 | cls_loss: 1.401
+#################### avg_loss: 1.422 ####################
+
+Epoch: 29
+loc_loss: 0.022 | cls_loss: 1.310 | train_loss: 1.552 | avg_loss: 1.332 [1/464]
+loc_loss: 0.020 | cls_loss: 1.252 | train_loss: 1.716 | avg_loss: 1.272 [101/464]
+loc_loss: 0.022 | cls_loss: 1.270 | train_loss: 1.262 | avg_loss: 1.291 [201/464]
+loc_loss: 0.021 | cls_loss: 1.303 | train_loss: 1.172 | avg_loss: 1.324 [301/464]
+loc_loss: 0.022 | cls_loss: 1.328 | train_loss: 1.133 | avg_loss: 1.350 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.393
+#################### avg_loss: 1.413 ####################
+
+Epoch: 30
+loc_loss: 0.021 | cls_loss: 1.240 | train_loss: 1.062 | avg_loss: 1.261 [1/464]
+loc_loss: 0.021 | cls_loss: 1.219 | train_loss: 1.476 | avg_loss: 1.239 [101/464]
+loc_loss: 0.021 | cls_loss: 1.271 | train_loss: 1.410 | avg_loss: 1.291 [201/464]
+loc_loss: 0.022 | cls_loss: 1.293 | train_loss: 1.514 | avg_loss: 1.315 [301/464]
+loc_loss: 0.021 | cls_loss: 1.282 | train_loss: 1.024 | avg_loss: 1.304 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.364
+#################### avg_loss: 1.384 ####################
+Saving..
+
+Epoch: 31
+loc_loss: 0.022 | cls_loss: 1.279 | train_loss: 1.224 | avg_loss: 1.302 [1/464]
+loc_loss: 0.020 | cls_loss: 1.259 | train_loss: 1.283 | avg_loss: 1.279 [101/464]
+loc_loss: 0.021 | cls_loss: 1.297 | train_loss: 1.607 | avg_loss: 1.318 [201/464]
+loc_loss: 0.021 | cls_loss: 1.268 | train_loss: 1.396 | avg_loss: 1.289 [301/464]
+loc_loss: 0.021 | cls_loss: 1.236 | train_loss: 1.487 | avg_loss: 1.257 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.449
+#################### avg_loss: 1.469 ####################
+
+Epoch: 32
+loc_loss: 0.021 | cls_loss: 1.256 | train_loss: 1.348 | avg_loss: 1.277 [1/464]
+loc_loss: 0.020 | cls_loss: 1.229 | train_loss: 1.092 | avg_loss: 1.250 [101/464]
+loc_loss: 0.021 | cls_loss: 1.222 | train_loss: 1.377 | avg_loss: 1.242 [201/464]
+loc_loss: 0.020 | cls_loss: 1.233 | train_loss: 1.285 | avg_loss: 1.253 [301/464]
+loc_loss: 0.019 | cls_loss: 1.226 | train_loss: 1.170 | avg_loss: 1.245 [401/464]
+
+Test
+loc_loss: 0.021 | cls_loss: 1.416
+#################### avg_loss: 1.437 ####################
+
+Epoch: 33
+loc_loss: 0.021 | cls_loss: 1.220 | train_loss: 0.899 | avg_loss: 1.240 [1/464]
+loc_loss: 0.020 | cls_loss: 1.232 | train_loss: 1.454 | avg_loss: 1.252 [101/464]
+loc_loss: 0.019 | cls_loss: 1.214 | train_loss: 1.103 | avg_loss: 1.233 [201/464]
+loc_loss: 0.021 | cls_loss: 1.217 | train_loss: 0.739 | avg_loss: 1.238 [301/464]
+loc_loss: 0.020 | cls_loss: 1.255 | train_loss: 1.377 | avg_loss: 1.276 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.383
+#################### avg_loss: 1.403 ####################
+
+Epoch: 34
+loc_loss: 0.021 | cls_loss: 1.263 | train_loss: 1.217 | avg_loss: 1.284 [1/464]
+loc_loss: 0.021 | cls_loss: 1.256 | train_loss: 1.143 | avg_loss: 1.277 [101/464]
+loc_loss: 0.019 | cls_loss: 1.193 | train_loss: 0.864 | avg_loss: 1.213 [201/464]
+loc_loss: 0.021 | cls_loss: 1.254 | train_loss: 1.168 | avg_loss: 1.275 [301/464]
+loc_loss: 0.019 | cls_loss: 1.217 | train_loss: 0.914 | avg_loss: 1.236 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.356
+#################### avg_loss: 1.376 ####################
+Saving..
+
+Epoch: 35
+loc_loss: 0.019 | cls_loss: 1.195 | train_loss: 0.994 | avg_loss: 1.214 [1/464]
+loc_loss: 0.019 | cls_loss: 1.200 | train_loss: 1.024 | avg_loss: 1.219 [101/464]
+loc_loss: 0.019 | cls_loss: 1.209 | train_loss: 1.297 | avg_loss: 1.228 [201/464]
+loc_loss: 0.022 | cls_loss: 1.230 | train_loss: 1.207 | avg_loss: 1.251 [301/464]
+loc_loss: 0.021 | cls_loss: 1.193 | train_loss: 1.089 | avg_loss: 1.214 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.413
+#################### avg_loss: 1.433 ####################
+
+Epoch: 36
+loc_loss: 0.020 | cls_loss: 1.190 | train_loss: 1.101 | avg_loss: 1.210 [1/464]
+loc_loss: 0.020 | cls_loss: 1.185 | train_loss: 1.178 | avg_loss: 1.205 [101/464]
+loc_loss: 0.019 | cls_loss: 1.186 | train_loss: 1.183 | avg_loss: 1.205 [201/464]
+loc_loss: 0.019 | cls_loss: 1.175 | train_loss: 1.423 | avg_loss: 1.195 [301/464]
+loc_loss: 0.019 | cls_loss: 1.173 | train_loss: 1.044 | avg_loss: 1.191 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.357
+#################### avg_loss: 1.377 ####################
+
+Epoch: 37
+loc_loss: 0.020 | cls_loss: 1.225 | train_loss: 1.477 | avg_loss: 1.244 [1/464]
+loc_loss: 0.019 | cls_loss: 1.203 | train_loss: 1.663 | avg_loss: 1.221 [101/464]
+loc_loss: 0.020 | cls_loss: 1.186 | train_loss: 1.286 | avg_loss: 1.206 [201/464]
+loc_loss: 0.019 | cls_loss: 1.201 | train_loss: 1.320 | avg_loss: 1.220 [301/464]
+loc_loss: 0.020 | cls_loss: 1.209 | train_loss: 1.625 | avg_loss: 1.228 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.379
+#################### avg_loss: 1.398 ####################
+
+Epoch: 38
+loc_loss: 0.020 | cls_loss: 1.200 | train_loss: 0.899 | avg_loss: 1.219 [1/464]
+loc_loss: 0.019 | cls_loss: 1.192 | train_loss: 1.288 | avg_loss: 1.210 [101/464]
+loc_loss: 0.020 | cls_loss: 1.184 | train_loss: 1.174 | avg_loss: 1.203 [201/464]
+loc_loss: 0.019 | cls_loss: 1.180 | train_loss: 1.043 | avg_loss: 1.199 [301/464]
+loc_loss: 0.019 | cls_loss: 1.145 | train_loss: 1.263 | avg_loss: 1.164 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.436
+#################### avg_loss: 1.455 ####################
+
+Epoch: 39
+loc_loss: 0.020 | cls_loss: 1.186 | train_loss: 1.062 | avg_loss: 1.205 [1/464]
+loc_loss: 0.019 | cls_loss: 1.147 | train_loss: 1.550 | avg_loss: 1.166 [101/464]
+loc_loss: 0.019 | cls_loss: 1.132 | train_loss: 1.076 | avg_loss: 1.150 [201/464]
+loc_loss: 0.021 | cls_loss: 1.209 | train_loss: 1.093 | avg_loss: 1.230 [301/464]
+loc_loss: 0.018 | cls_loss: 1.170 | train_loss: 1.250 | avg_loss: 1.189 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.374
+#################### avg_loss: 1.394 ####################
+
+Epoch: 40
+loc_loss: 0.019 | cls_loss: 1.183 | train_loss: 1.124 | avg_loss: 1.202 [1/464]
+loc_loss: 0.018 | cls_loss: 1.142 | train_loss: 1.400 | avg_loss: 1.160 [101/464]
+loc_loss: 0.018 | cls_loss: 1.143 | train_loss: 1.109 | avg_loss: 1.161 [201/464]
+loc_loss: 0.018 | cls_loss: 1.135 | train_loss: 1.054 | avg_loss: 1.153 [301/464]
+loc_loss: 0.020 | cls_loss: 1.152 | train_loss: 1.528 | avg_loss: 1.172 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.366
+#################### avg_loss: 1.385 ####################
+
+Epoch: 41
+loc_loss: 0.020 | cls_loss: 1.182 | train_loss: 1.299 | avg_loss: 1.202 [1/464]
+loc_loss: 0.018 | cls_loss: 1.129 | train_loss: 0.989 | avg_loss: 1.147 [101/464]
+loc_loss: 0.017 | cls_loss: 1.109 | train_loss: 0.777 | avg_loss: 1.126 [201/464]
+loc_loss: 0.018 | cls_loss: 1.107 | train_loss: 1.006 | avg_loss: 1.124 [301/464]
+loc_loss: 0.018 | cls_loss: 1.122 | train_loss: 1.100 | avg_loss: 1.139 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.393
+#################### avg_loss: 1.412 ####################
+
+Epoch: 42
+loc_loss: 0.017 | cls_loss: 1.100 | train_loss: 1.061 | avg_loss: 1.117 [1/464]
+loc_loss: 0.018 | cls_loss: 1.107 | train_loss: 1.044 | avg_loss: 1.125 [101/464]
+loc_loss: 0.018 | cls_loss: 1.124 | train_loss: 0.962 | avg_loss: 1.142 [201/464]
+loc_loss: 0.019 | cls_loss: 1.145 | train_loss: 0.819 | avg_loss: 1.163 [301/464]
+loc_loss: 0.019 | cls_loss: 1.203 | train_loss: 1.191 | avg_loss: 1.222 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.361
+#################### avg_loss: 1.380 ####################
+
+Epoch: 43
+loc_loss: 0.018 | cls_loss: 1.157 | train_loss: 0.912 | avg_loss: 1.175 [1/464]
+loc_loss: 0.018 | cls_loss: 1.125 | train_loss: 0.964 | avg_loss: 1.143 [101/464]
+loc_loss: 0.021 | cls_loss: 1.174 | train_loss: 1.486 | avg_loss: 1.195 [201/464]
+loc_loss: 0.018 | cls_loss: 1.135 | train_loss: 1.237 | avg_loss: 1.153 [301/464]
+loc_loss: 0.018 | cls_loss: 1.148 | train_loss: 0.920 | avg_loss: 1.166 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.490
+#################### avg_loss: 1.510 ####################
+
+Epoch: 44
+loc_loss: 0.018 | cls_loss: 1.134 | train_loss: 1.215 | avg_loss: 1.152 [1/464]
+loc_loss: 0.017 | cls_loss: 1.141 | train_loss: 1.588 | avg_loss: 1.158 [101/464]
+loc_loss: 0.018 | cls_loss: 1.094 | train_loss: 1.041 | avg_loss: 1.112 [201/464]
+loc_loss: 0.018 | cls_loss: 1.112 | train_loss: 1.068 | avg_loss: 1.130 [301/464]
+loc_loss: 0.019 | cls_loss: 1.144 | train_loss: 1.253 | avg_loss: 1.163 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.417
+#################### avg_loss: 1.436 ####################
+
+Epoch: 45
+loc_loss: 0.019 | cls_loss: 1.173 | train_loss: 1.185 | avg_loss: 1.192 [1/464]
+loc_loss: 0.018 | cls_loss: 1.121 | train_loss: 1.893 | avg_loss: 1.138 [101/464]
+loc_loss: 0.018 | cls_loss: 1.112 | train_loss: 1.198 | avg_loss: 1.130 [201/464]
+loc_loss: 0.018 | cls_loss: 1.122 | train_loss: 1.282 | avg_loss: 1.140 [301/464]
+loc_loss: 0.018 | cls_loss: 1.110 | train_loss: 1.168 | avg_loss: 1.128 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.411
+#################### avg_loss: 1.430 ####################
+
+Epoch: 46
+loc_loss: 0.018 | cls_loss: 1.125 | train_loss: 1.282 | avg_loss: 1.143 [1/464]
+loc_loss: 0.017 | cls_loss: 1.076 | train_loss: 1.281 | avg_loss: 1.093 [101/464]
+loc_loss: 0.019 | cls_loss: 1.144 | train_loss: 1.203 | avg_loss: 1.163 [201/464]
+loc_loss: 0.018 | cls_loss: 1.153 | train_loss: 0.977 | avg_loss: 1.171 [301/464]
+loc_loss: 0.018 | cls_loss: 1.163 | train_loss: 0.984 | avg_loss: 1.181 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.427
+#################### avg_loss: 1.447 ####################
+
+Epoch: 47
+loc_loss: 0.018 | cls_loss: 1.112 | train_loss: 0.956 | avg_loss: 1.130 [1/464]
+loc_loss: 0.017 | cls_loss: 1.075 | train_loss: 0.946 | avg_loss: 1.092 [101/464]
+loc_loss: 0.017 | cls_loss: 1.110 | train_loss: 1.012 | avg_loss: 1.127 [201/464]
+loc_loss: 0.018 | cls_loss: 1.092 | train_loss: 0.867 | avg_loss: 1.110 [301/464]
+loc_loss: 0.017 | cls_loss: 1.094 | train_loss: 0.884 | avg_loss: 1.110 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.371
+#################### avg_loss: 1.390 ####################
+
+Epoch: 48
+loc_loss: 0.018 | cls_loss: 1.141 | train_loss: 1.473 | avg_loss: 1.159 [1/464]
+loc_loss: 0.019 | cls_loss: 1.100 | train_loss: 1.020 | avg_loss: 1.118 [101/464]
+loc_loss: 0.017 | cls_loss: 1.088 | train_loss: 2.293 | avg_loss: 1.106 [201/464]
+loc_loss: 0.017 | cls_loss: 1.131 | train_loss: 0.933 | avg_loss: 1.148 [301/464]
+loc_loss: 0.017 | cls_loss: 1.040 | train_loss: 1.158 | avg_loss: 1.056 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.450
+#################### avg_loss: 1.469 ####################
+
+Epoch: 49
+loc_loss: 0.017 | cls_loss: 1.079 | train_loss: 1.062 | avg_loss: 1.096 [1/464]
+loc_loss: 0.017 | cls_loss: 1.062 | train_loss: 1.407 | avg_loss: 1.080 [101/464]
+loc_loss: 0.018 | cls_loss: 1.117 | train_loss: 0.964 | avg_loss: 1.135 [201/464]
+loc_loss: 0.017 | cls_loss: 1.060 | train_loss: 1.019 | avg_loss: 1.077 [301/464]
+loc_loss: 0.016 | cls_loss: 1.066 | train_loss: 0.898 | avg_loss: 1.082 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.417
+#################### avg_loss: 1.436 ####################
+
+Epoch: 50
+loc_loss: 0.017 | cls_loss: 1.065 | train_loss: 0.791 | avg_loss: 1.082 [1/464]
+loc_loss: 0.017 | cls_loss: 1.061 | train_loss: 1.248 | avg_loss: 1.078 [101/464]
+loc_loss: 0.016 | cls_loss: 1.081 | train_loss: 1.254 | avg_loss: 1.098 [201/464]
+loc_loss: 0.017 | cls_loss: 1.069 | train_loss: 1.063 | avg_loss: 1.086 [301/464]
+loc_loss: 0.018 | cls_loss: 1.129 | train_loss: 1.055 | avg_loss: 1.146 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.358
+#################### avg_loss: 1.376 ####################
+
+Epoch: 51
+loc_loss: 0.016 | cls_loss: 1.060 | train_loss: 1.072 | avg_loss: 1.077 [1/464]
+loc_loss: 0.018 | cls_loss: 1.118 | train_loss: 0.969 | avg_loss: 1.136 [101/464]
+loc_loss: 0.017 | cls_loss: 1.052 | train_loss: 1.280 | avg_loss: 1.070 [201/464]
+loc_loss: 0.017 | cls_loss: 1.085 | train_loss: 0.807 | avg_loss: 1.102 [301/464]
+loc_loss: 0.017 | cls_loss: 1.044 | train_loss: 1.128 | avg_loss: 1.061 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.408
+#################### avg_loss: 1.427 ####################
+
+Epoch: 52
+loc_loss: 0.016 | cls_loss: 1.044 | train_loss: 1.137 | avg_loss: 1.061 [1/464]
+loc_loss: 0.017 | cls_loss: 1.055 | train_loss: 1.173 | avg_loss: 1.072 [101/464]
+loc_loss: 0.017 | cls_loss: 1.032 | train_loss: 0.802 | avg_loss: 1.049 [201/464]
+loc_loss: 0.017 | cls_loss: 1.103 | train_loss: 0.659 | avg_loss: 1.119 [301/464]
+loc_loss: 0.017 | cls_loss: 1.091 | train_loss: 1.178 | avg_loss: 1.108 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.411
+#################### avg_loss: 1.429 ####################
+
+Epoch: 53
+loc_loss: 0.017 | cls_loss: 1.058 | train_loss: 1.045 | avg_loss: 1.075 [1/464]
+loc_loss: 0.016 | cls_loss: 1.035 | train_loss: 0.793 | avg_loss: 1.051 [101/464]
+loc_loss: 0.017 | cls_loss: 1.054 | train_loss: 1.044 | avg_loss: 1.071 [201/464]
+loc_loss: 0.017 | cls_loss: 1.027 | train_loss: 1.037 | avg_loss: 1.044 [301/464]
+loc_loss: 0.017 | cls_loss: 1.084 | train_loss: 1.075 | avg_loss: 1.101 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.408
+#################### avg_loss: 1.426 ####################
+
+Epoch: 54
+loc_loss: 0.017 | cls_loss: 1.075 | train_loss: 1.136 | avg_loss: 1.092 [1/464]
+loc_loss: 0.017 | cls_loss: 1.079 | train_loss: 1.362 | avg_loss: 1.096 [101/464]
+loc_loss: 0.016 | cls_loss: 1.014 | train_loss: 0.910 | avg_loss: 1.030 [201/464]
+loc_loss: 0.018 | cls_loss: 1.098 | train_loss: 1.108 | avg_loss: 1.116 [301/464]
+loc_loss: 0.017 | cls_loss: 1.081 | train_loss: 0.918 | avg_loss: 1.098 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.410
+#################### avg_loss: 1.430 ####################
+
+Epoch: 55
+loc_loss: 0.018 | cls_loss: 1.042 | train_loss: 1.084 | avg_loss: 1.060 [1/464]
+loc_loss: 0.017 | cls_loss: 1.098 | train_loss: 1.250 | avg_loss: 1.115 [101/464]
+loc_loss: 0.017 | cls_loss: 1.064 | train_loss: 1.206 | avg_loss: 1.081 [201/464]
+loc_loss: 0.017 | cls_loss: 1.075 | train_loss: 1.214 | avg_loss: 1.092 [301/464]
+loc_loss: 0.015 | cls_loss: 1.018 | train_loss: 1.421 | avg_loss: 1.033 [401/464]
+
+Test
+loc_loss: 0.021 | cls_loss: 1.478
+#################### avg_loss: 1.500 ####################
+
+Epoch: 56
+loc_loss: 0.017 | cls_loss: 1.102 | train_loss: 1.115 | avg_loss: 1.119 [1/464]
+loc_loss: 0.016 | cls_loss: 1.077 | train_loss: 1.062 | avg_loss: 1.093 [101/464]
+loc_loss: 0.018 | cls_loss: 1.090 | train_loss: 0.986 | avg_loss: 1.108 [201/464]
+loc_loss: 0.016 | cls_loss: 1.050 | train_loss: 0.913 | avg_loss: 1.066 [301/464]
+loc_loss: 0.015 | cls_loss: 0.986 | train_loss: 1.054 | avg_loss: 1.001 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.429
+#################### avg_loss: 1.448 ####################
+
+Epoch: 57
+loc_loss: 0.016 | cls_loss: 1.037 | train_loss: 0.798 | avg_loss: 1.053 [1/464]
+loc_loss: 0.015 | cls_loss: 1.025 | train_loss: 0.836 | avg_loss: 1.041 [101/464]
+loc_loss: 0.015 | cls_loss: 0.999 | train_loss: 1.124 | avg_loss: 1.014 [201/464]
+loc_loss: 0.016 | cls_loss: 1.020 | train_loss: 1.146 | avg_loss: 1.036 [301/464]
+loc_loss: 0.017 | cls_loss: 1.032 | train_loss: 0.828 | avg_loss: 1.049 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.438
+#################### avg_loss: 1.457 ####################
+
+Epoch: 58
+loc_loss: 0.016 | cls_loss: 1.040 | train_loss: 1.160 | avg_loss: 1.056 [1/464]
+loc_loss: 0.017 | cls_loss: 1.084 | train_loss: 0.875 | avg_loss: 1.101 [101/464]
+loc_loss: 0.017 | cls_loss: 1.070 | train_loss: 1.002 | avg_loss: 1.086 [201/464]
+loc_loss: 0.016 | cls_loss: 1.056 | train_loss: 0.942 | avg_loss: 1.071 [301/464]
+loc_loss: 0.016 | cls_loss: 1.020 | train_loss: 1.178 | avg_loss: 1.036 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.460
+#################### avg_loss: 1.480 ####################
+
+Epoch: 59
+loc_loss: 0.016 | cls_loss: 1.031 | train_loss: 0.878 | avg_loss: 1.047 [1/464]
+loc_loss: 0.016 | cls_loss: 1.033 | train_loss: 1.391 | avg_loss: 1.049 [101/464]
+loc_loss: 0.016 | cls_loss: 1.006 | train_loss: 0.767 | avg_loss: 1.022 [201/464]
+loc_loss: 0.015 | cls_loss: 1.017 | train_loss: 1.594 | avg_loss: 1.032 [301/464]
+loc_loss: 0.015 | cls_loss: 0.997 | train_loss: 0.876 | avg_loss: 1.012 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.422
+#################### avg_loss: 1.440 ####################
+
+Epoch: 60
+loc_loss: 0.016 | cls_loss: 1.036 | train_loss: 0.643 | avg_loss: 1.051 [1/464]
+loc_loss: 0.016 | cls_loss: 1.030 | train_loss: 0.680 | avg_loss: 1.046 [101/464]
+loc_loss: 0.015 | cls_loss: 0.972 | train_loss: 0.701 | avg_loss: 0.987 [201/464]
+loc_loss: 0.016 | cls_loss: 1.008 | train_loss: 1.015 | avg_loss: 1.024 [301/464]
+loc_loss: 0.017 | cls_loss: 1.036 | train_loss: 0.916 | avg_loss: 1.054 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.437
+#################### avg_loss: 1.455 ####################
+
+Epoch: 61
+loc_loss: 0.018 | cls_loss: 1.047 | train_loss: 0.940 | avg_loss: 1.064 [1/464]
+loc_loss: 0.015 | cls_loss: 0.970 | train_loss: 0.777 | avg_loss: 0.986 [101/464]
+loc_loss: 0.015 | cls_loss: 0.980 | train_loss: 0.755 | avg_loss: 0.995 [201/464]
+loc_loss: 0.015 | cls_loss: 1.005 | train_loss: 0.885 | avg_loss: 1.021 [301/464]
+loc_loss: 0.015 | cls_loss: 1.032 | train_loss: 0.608 | avg_loss: 1.048 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.416
+#################### avg_loss: 1.434 ####################
+
+Epoch: 62
+loc_loss: 0.016 | cls_loss: 1.048 | train_loss: 1.089 | avg_loss: 1.064 [1/464]
+loc_loss: 0.016 | cls_loss: 1.030 | train_loss: 0.872 | avg_loss: 1.046 [101/464]
+loc_loss: 0.016 | cls_loss: 0.986 | train_loss: 0.705 | avg_loss: 1.003 [201/464]
+loc_loss: 0.016 | cls_loss: 1.030 | train_loss: 1.011 | avg_loss: 1.046 [301/464]
+loc_loss: 0.015 | cls_loss: 0.989 | train_loss: 1.113 | avg_loss: 1.004 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.506
+#################### avg_loss: 1.524 ####################
+
+Epoch: 63
+loc_loss: 0.016 | cls_loss: 1.013 | train_loss: 0.615 | avg_loss: 1.029 [1/464]
+loc_loss: 0.016 | cls_loss: 1.004 | train_loss: 1.026 | avg_loss: 1.019 [101/464]
+loc_loss: 0.015 | cls_loss: 0.992 | train_loss: 0.927 | avg_loss: 1.007 [201/464]
+loc_loss: 0.015 | cls_loss: 1.023 | train_loss: 1.010 | avg_loss: 1.038 [301/464]
+loc_loss: 0.015 | cls_loss: 1.009 | train_loss: 0.942 | avg_loss: 1.024 [401/464]
+
+Test
+loc_loss: 0.021 | cls_loss: 1.560
+#################### avg_loss: 1.581 ####################
+
+Epoch: 64
+loc_loss: 0.017 | cls_loss: 1.128 | train_loss: 1.335 | avg_loss: 1.145 [1/464]
+loc_loss: 0.017 | cls_loss: 1.088 | train_loss: 1.237 | avg_loss: 1.105 [101/464]
+loc_loss: 0.015 | cls_loss: 0.989 | train_loss: 1.194 | avg_loss: 1.004 [201/464]
+loc_loss: 0.015 | cls_loss: 1.010 | train_loss: 0.860 | avg_loss: 1.024 [301/464]
+loc_loss: 0.016 | cls_loss: 1.020 | train_loss: 0.958 | avg_loss: 1.035 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.408
+#################### avg_loss: 1.426 ####################
+
+Epoch: 65
+loc_loss: 0.016 | cls_loss: 1.042 | train_loss: 1.297 | avg_loss: 1.058 [1/464]
+loc_loss: 0.016 | cls_loss: 1.013 | train_loss: 1.499 | avg_loss: 1.028 [101/464]
+loc_loss: 0.016 | cls_loss: 1.012 | train_loss: 1.008 | avg_loss: 1.028 [201/464]
+loc_loss: 0.016 | cls_loss: 1.036 | train_loss: 1.175 | avg_loss: 1.052 [301/464]
+loc_loss: 0.018 | cls_loss: 1.032 | train_loss: 1.061 | avg_loss: 1.050 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.437
+#################### avg_loss: 1.457 ####################
+
+Epoch: 66
+loc_loss: 0.019 | cls_loss: 1.045 | train_loss: 1.627 | avg_loss: 1.064 [1/464]
+loc_loss: 0.016 | cls_loss: 1.023 | train_loss: 0.885 | avg_loss: 1.039 [101/464]
+loc_loss: 0.017 | cls_loss: 1.037 | train_loss: 0.763 | avg_loss: 1.054 [201/464]
+loc_loss: 0.015 | cls_loss: 0.986 | train_loss: 1.092 | avg_loss: 1.001 [301/464]
+loc_loss: 0.016 | cls_loss: 1.002 | train_loss: 1.277 | avg_loss: 1.018 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.499
+#################### avg_loss: 1.517 ####################
+
+Epoch: 67
+loc_loss: 0.015 | cls_loss: 1.016 | train_loss: 1.082 | avg_loss: 1.031 [1/464]
+loc_loss: 0.016 | cls_loss: 0.992 | train_loss: 0.838 | avg_loss: 1.008 [101/464]
+loc_loss: 0.015 | cls_loss: 0.981 | train_loss: 0.918 | avg_loss: 0.996 [201/464]
+loc_loss: 0.016 | cls_loss: 1.022 | train_loss: 0.724 | avg_loss: 1.038 [301/464]
+loc_loss: 0.015 | cls_loss: 0.978 | train_loss: 1.085 | avg_loss: 0.993 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.453
+#################### avg_loss: 1.471 ####################
+
+Epoch: 68
+loc_loss: 0.015 | cls_loss: 0.975 | train_loss: 0.866 | avg_loss: 0.989 [1/464]
+loc_loss: 0.015 | cls_loss: 0.969 | train_loss: 0.581 | avg_loss: 0.984 [101/464]
+loc_loss: 0.015 | cls_loss: 0.963 | train_loss: 0.768 | avg_loss: 0.979 [201/464]
+loc_loss: 0.015 | cls_loss: 0.998 | train_loss: 1.127 | avg_loss: 1.013 [301/464]
+loc_loss: 0.015 | cls_loss: 0.991 | train_loss: 0.794 | avg_loss: 1.007 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.494
+#################### avg_loss: 1.513 ####################
+
+Epoch: 69
+loc_loss: 0.015 | cls_loss: 1.023 | train_loss: 1.356 | avg_loss: 1.038 [1/464]
+loc_loss: 0.015 | cls_loss: 0.976 | train_loss: 0.876 | avg_loss: 0.991 [101/464]
+loc_loss: 0.015 | cls_loss: 0.981 | train_loss: 0.979 | avg_loss: 0.996 [201/464]
+loc_loss: 0.015 | cls_loss: 0.975 | train_loss: 0.979 | avg_loss: 0.990 [301/464]
+loc_loss: 0.015 | cls_loss: 0.988 | train_loss: 0.959 | avg_loss: 1.003 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.426
+#################### avg_loss: 1.444 ####################
+
+Epoch: 70
+loc_loss: 0.016 | cls_loss: 0.954 | train_loss: 0.977 | avg_loss: 0.969 [1/464]
+loc_loss: 0.014 | cls_loss: 0.933 | train_loss: 1.138 | avg_loss: 0.946 [101/464]
+loc_loss: 0.015 | cls_loss: 0.992 | train_loss: 1.136 | avg_loss: 1.008 [201/464]
+loc_loss: 0.015 | cls_loss: 0.955 | train_loss: 0.934 | avg_loss: 0.970 [301/464]
+loc_loss: 0.014 | cls_loss: 0.936 | train_loss: 0.736 | avg_loss: 0.950 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.434
+#################### avg_loss: 1.452 ####################
+
+Epoch: 71
+loc_loss: 0.014 | cls_loss: 0.931 | train_loss: 1.200 | avg_loss: 0.945 [1/464]
+loc_loss: 0.015 | cls_loss: 0.961 | train_loss: 0.820 | avg_loss: 0.976 [101/464]
+loc_loss: 0.015 | cls_loss: 1.004 | train_loss: 0.868 | avg_loss: 1.020 [201/464]
+loc_loss: 0.015 | cls_loss: 0.958 | train_loss: 0.795 | avg_loss: 0.972 [301/464]
+loc_loss: 0.015 | cls_loss: 0.936 | train_loss: 0.850 | avg_loss: 0.950 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.428
+#################### avg_loss: 1.447 ####################
+
+Epoch: 72
+loc_loss: 0.016 | cls_loss: 0.986 | train_loss: 1.246 | avg_loss: 1.002 [1/464]
+loc_loss: 0.014 | cls_loss: 0.943 | train_loss: 0.742 | avg_loss: 0.958 [101/464]
+loc_loss: 0.015 | cls_loss: 0.994 | train_loss: 0.975 | avg_loss: 1.008 [201/464]
+loc_loss: 0.015 | cls_loss: 1.009 | train_loss: 1.222 | avg_loss: 1.025 [301/464]
+loc_loss: 0.014 | cls_loss: 0.969 | train_loss: 0.909 | avg_loss: 0.983 [401/464]
+
+Test
+loc_loss: 0.029 | cls_loss: 2.038
+#################### avg_loss: 2.066 ####################
+
+Epoch: 73
+loc_loss: 0.015 | cls_loss: 1.048 | train_loss: 1.566 | avg_loss: 1.063 [1/464]
+loc_loss: 0.018 | cls_loss: 1.197 | train_loss: 0.791 | avg_loss: 1.215 [101/464]
+loc_loss: 0.016 | cls_loss: 0.983 | train_loss: 0.779 | avg_loss: 0.999 [201/464]
+loc_loss: 0.015 | cls_loss: 0.954 | train_loss: 0.785 | avg_loss: 0.969 [301/464]
+loc_loss: 0.014 | cls_loss: 0.943 | train_loss: 0.658 | avg_loss: 0.957 [401/464]
+
+Test
+loc_loss: 0.020 | cls_loss: 1.490
+#################### avg_loss: 1.511 ####################
+
+Epoch: 74
+loc_loss: 0.014 | cls_loss: 0.968 | train_loss: 1.121 | avg_loss: 0.983 [1/464]
+loc_loss: 0.014 | cls_loss: 0.915 | train_loss: 1.188 | avg_loss: 0.929 [101/464]
+loc_loss: 0.013 | cls_loss: 0.975 | train_loss: 0.904 | avg_loss: 0.988 [201/464]
+loc_loss: 0.015 | cls_loss: 0.971 | train_loss: 0.909 | avg_loss: 0.986 [301/464]
+loc_loss: 0.015 | cls_loss: 0.964 | train_loss: 0.831 | avg_loss: 0.979 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.486
+#################### avg_loss: 1.505 ####################
+
+Epoch: 75
+loc_loss: 0.014 | cls_loss: 0.936 | train_loss: 0.621 | avg_loss: 0.950 [1/464]
+loc_loss: 0.014 | cls_loss: 0.959 | train_loss: 0.875 | avg_loss: 0.973 [101/464]
+loc_loss: 0.014 | cls_loss: 0.936 | train_loss: 1.265 | avg_loss: 0.950 [201/464]
+loc_loss: 0.015 | cls_loss: 0.942 | train_loss: 1.043 | avg_loss: 0.957 [301/464]
+loc_loss: 0.016 | cls_loss: 1.006 | train_loss: 1.185 | avg_loss: 1.022 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.469
+#################### avg_loss: 1.487 ####################
+
+Epoch: 76
+loc_loss: 0.015 | cls_loss: 0.972 | train_loss: 0.815 | avg_loss: 0.987 [1/464]
+loc_loss: 0.015 | cls_loss: 0.966 | train_loss: 1.195 | avg_loss: 0.981 [101/464]
+loc_loss: 0.015 | cls_loss: 0.962 | train_loss: 0.880 | avg_loss: 0.976 [201/464]
+loc_loss: 0.016 | cls_loss: 1.048 | train_loss: 1.256 | avg_loss: 1.065 [301/464]
+loc_loss: 0.015 | cls_loss: 0.991 | train_loss: 1.009 | avg_loss: 1.006 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.435
+#################### avg_loss: 1.454 ####################
+
+Epoch: 77
+loc_loss: 0.014 | cls_loss: 0.993 | train_loss: 0.966 | avg_loss: 1.007 [1/464]
+loc_loss: 0.015 | cls_loss: 0.958 | train_loss: 0.670 | avg_loss: 0.973 [101/464]
+loc_loss: 0.015 | cls_loss: 0.937 | train_loss: 0.766 | avg_loss: 0.952 [201/464]
+loc_loss: 0.014 | cls_loss: 0.941 | train_loss: 0.887 | avg_loss: 0.955 [301/464]
+loc_loss: 0.015 | cls_loss: 0.951 | train_loss: 0.963 | avg_loss: 0.966 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.489
+#################### avg_loss: 1.508 ####################
+
+Epoch: 78
+loc_loss: 0.015 | cls_loss: 0.989 | train_loss: 1.240 | avg_loss: 1.005 [1/464]
+loc_loss: 0.014 | cls_loss: 0.925 | train_loss: 1.109 | avg_loss: 0.939 [101/464]
+loc_loss: 0.014 | cls_loss: 0.921 | train_loss: 0.829 | avg_loss: 0.934 [201/464]
+loc_loss: 0.014 | cls_loss: 0.981 | train_loss: 1.245 | avg_loss: 0.996 [301/464]
+loc_loss: 0.014 | cls_loss: 0.988 | train_loss: 0.674 | avg_loss: 1.003 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.477
+#################### avg_loss: 1.496 ####################
+
+Epoch: 79
+loc_loss: 0.014 | cls_loss: 0.953 | train_loss: 0.807 | avg_loss: 0.968 [1/464]
+loc_loss: 0.015 | cls_loss: 0.973 | train_loss: 1.266 | avg_loss: 0.987 [101/464]
+loc_loss: 0.015 | cls_loss: 0.988 | train_loss: 1.682 | avg_loss: 1.003 [201/464]
+loc_loss: 0.014 | cls_loss: 0.962 | train_loss: 0.500 | avg_loss: 0.975 [301/464]
+loc_loss: 0.014 | cls_loss: 0.941 | train_loss: 0.831 | avg_loss: 0.955 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.508
+#################### avg_loss: 1.527 ####################
+
+Epoch: 80
+loc_loss: 0.014 | cls_loss: 0.956 | train_loss: 0.975 | avg_loss: 0.970 [1/464]
+loc_loss: 0.014 | cls_loss: 0.919 | train_loss: 1.224 | avg_loss: 0.933 [101/464]
+loc_loss: 0.016 | cls_loss: 0.962 | train_loss: 0.995 | avg_loss: 0.979 [201/464]
+loc_loss: 0.014 | cls_loss: 0.913 | train_loss: 0.865 | avg_loss: 0.928 [301/464]
+loc_loss: 0.014 | cls_loss: 0.940 | train_loss: 0.782 | avg_loss: 0.953 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.514
+#################### avg_loss: 1.532 ####################
+
+Epoch: 81
+loc_loss: 0.013 | cls_loss: 0.905 | train_loss: 0.966 | avg_loss: 0.919 [1/464]
+loc_loss: 0.013 | cls_loss: 0.941 | train_loss: 0.745 | avg_loss: 0.954 [101/464]
+loc_loss: 0.014 | cls_loss: 0.947 | train_loss: 1.113 | avg_loss: 0.961 [201/464]
+loc_loss: 0.014 | cls_loss: 0.912 | train_loss: 1.020 | avg_loss: 0.926 [301/464]
+loc_loss: 0.014 | cls_loss: 0.906 | train_loss: 0.665 | avg_loss: 0.921 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.452
+#################### avg_loss: 1.469 ####################
+
+Epoch: 82
+loc_loss: 0.013 | cls_loss: 0.907 | train_loss: 0.599 | avg_loss: 0.921 [1/464]
+loc_loss: 0.016 | cls_loss: 0.953 | train_loss: 0.681 | avg_loss: 0.969 [101/464]
+loc_loss: 0.014 | cls_loss: 0.919 | train_loss: 0.816 | avg_loss: 0.933 [201/464]
+loc_loss: 0.014 | cls_loss: 0.904 | train_loss: 0.677 | avg_loss: 0.918 [301/464]
+loc_loss: 0.013 | cls_loss: 0.931 | train_loss: 0.790 | avg_loss: 0.944 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.518
+#################### avg_loss: 1.537 ####################
+
+Epoch: 83
+loc_loss: 0.014 | cls_loss: 0.913 | train_loss: 1.144 | avg_loss: 0.927 [1/464]
+loc_loss: 0.014 | cls_loss: 0.921 | train_loss: 0.914 | avg_loss: 0.934 [101/464]
+loc_loss: 0.013 | cls_loss: 0.910 | train_loss: 0.801 | avg_loss: 0.923 [201/464]
+loc_loss: 0.014 | cls_loss: 0.945 | train_loss: 1.470 | avg_loss: 0.959 [301/464]
+loc_loss: 0.014 | cls_loss: 0.909 | train_loss: 0.724 | avg_loss: 0.923 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.496
+#################### avg_loss: 1.513 ####################
+
+Epoch: 84
+loc_loss: 0.012 | cls_loss: 0.860 | train_loss: 0.702 | avg_loss: 0.872 [1/464]
+loc_loss: 0.013 | cls_loss: 0.899 | train_loss: 0.790 | avg_loss: 0.912 [101/464]
+loc_loss: 0.013 | cls_loss: 0.887 | train_loss: 1.195 | avg_loss: 0.900 [201/464]
+loc_loss: 0.014 | cls_loss: 0.914 | train_loss: 1.185 | avg_loss: 0.928 [301/464]
+loc_loss: 0.014 | cls_loss: 0.934 | train_loss: 1.887 | avg_loss: 0.948 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.508
+#################### avg_loss: 1.526 ####################
+
+Epoch: 85
+loc_loss: 0.014 | cls_loss: 0.930 | train_loss: 1.078 | avg_loss: 0.944 [1/464]
+loc_loss: 0.013 | cls_loss: 0.887 | train_loss: 0.873 | avg_loss: 0.900 [101/464]
+loc_loss: 0.014 | cls_loss: 0.941 | train_loss: 0.674 | avg_loss: 0.956 [201/464]
+loc_loss: 0.014 | cls_loss: 0.950 | train_loss: 1.019 | avg_loss: 0.964 [301/464]
+loc_loss: 0.013 | cls_loss: 0.895 | train_loss: 1.079 | avg_loss: 0.909 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.504
+#################### avg_loss: 1.523 ####################
+
+Epoch: 86
+loc_loss: 0.014 | cls_loss: 0.922 | train_loss: 0.915 | avg_loss: 0.936 [1/464]
+loc_loss: 0.014 | cls_loss: 0.912 | train_loss: 0.768 | avg_loss: 0.925 [101/464]
+loc_loss: 0.013 | cls_loss: 0.911 | train_loss: 0.872 | avg_loss: 0.924 [201/464]
+loc_loss: 0.014 | cls_loss: 0.923 | train_loss: 0.572 | avg_loss: 0.937 [301/464]
+loc_loss: 0.014 | cls_loss: 0.887 | train_loss: 0.955 | avg_loss: 0.900 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.556
+#################### avg_loss: 1.575 ####################
+
+Epoch: 87
+loc_loss: 0.014 | cls_loss: 0.880 | train_loss: 0.938 | avg_loss: 0.893 [1/464]
+loc_loss: 0.014 | cls_loss: 0.908 | train_loss: 0.749 | avg_loss: 0.922 [101/464]
+loc_loss: 0.014 | cls_loss: 0.939 | train_loss: 0.897 | avg_loss: 0.953 [201/464]
+loc_loss: 0.013 | cls_loss: 0.895 | train_loss: 0.623 | avg_loss: 0.908 [301/464]
+loc_loss: 0.013 | cls_loss: 0.881 | train_loss: 0.678 | avg_loss: 0.894 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.498
+#################### avg_loss: 1.516 ####################
+
+Epoch: 88
+loc_loss: 0.013 | cls_loss: 0.887 | train_loss: 0.805 | avg_loss: 0.900 [1/464]
+loc_loss: 0.014 | cls_loss: 0.913 | train_loss: 1.277 | avg_loss: 0.927 [101/464]
+loc_loss: 0.014 | cls_loss: 0.921 | train_loss: 0.855 | avg_loss: 0.935 [201/464]
+loc_loss: 0.013 | cls_loss: 0.904 | train_loss: 0.729 | avg_loss: 0.917 [301/464]
+loc_loss: 0.013 | cls_loss: 0.865 | train_loss: 0.581 | avg_loss: 0.878 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.513
+#################### avg_loss: 1.531 ####################
+
+Epoch: 89
+loc_loss: 0.013 | cls_loss: 0.865 | train_loss: 0.915 | avg_loss: 0.878 [1/464]
+loc_loss: 0.014 | cls_loss: 0.931 | train_loss: 1.057 | avg_loss: 0.945 [101/464]
+loc_loss: 0.013 | cls_loss: 0.858 | train_loss: 0.675 | avg_loss: 0.871 [201/464]
+loc_loss: 0.013 | cls_loss: 0.876 | train_loss: 1.140 | avg_loss: 0.889 [301/464]
+loc_loss: 0.013 | cls_loss: 0.906 | train_loss: 1.031 | avg_loss: 0.919 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.488
+#################### avg_loss: 1.507 ####################
+
+Epoch: 90
+loc_loss: 0.013 | cls_loss: 0.924 | train_loss: 0.926 | avg_loss: 0.937 [1/464]
+loc_loss: 0.013 | cls_loss: 0.860 | train_loss: 0.925 | avg_loss: 0.873 [101/464]
+loc_loss: 0.014 | cls_loss: 0.892 | train_loss: 1.007 | avg_loss: 0.906 [201/464]
+loc_loss: 0.013 | cls_loss: 0.913 | train_loss: 1.074 | avg_loss: 0.926 [301/464]
+loc_loss: 0.013 | cls_loss: 0.909 | train_loss: 0.689 | avg_loss: 0.922 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.487
+#################### avg_loss: 1.505 ####################
+
+Epoch: 91
+loc_loss: 0.013 | cls_loss: 0.926 | train_loss: 0.812 | avg_loss: 0.940 [1/464]
+loc_loss: 0.013 | cls_loss: 0.874 | train_loss: 1.029 | avg_loss: 0.886 [101/464]
+loc_loss: 0.014 | cls_loss: 0.871 | train_loss: 0.897 | avg_loss: 0.885 [201/464]
+loc_loss: 0.014 | cls_loss: 0.901 | train_loss: 0.979 | avg_loss: 0.915 [301/464]
+loc_loss: 0.013 | cls_loss: 0.886 | train_loss: 0.801 | avg_loss: 0.899 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.475
+#################### avg_loss: 1.494 ####################
+
+Epoch: 92
+loc_loss: 0.014 | cls_loss: 0.903 | train_loss: 0.662 | avg_loss: 0.917 [1/464]
+loc_loss: 0.014 | cls_loss: 0.902 | train_loss: 0.736 | avg_loss: 0.915 [101/464]
+loc_loss: 0.013 | cls_loss: 0.875 | train_loss: 1.182 | avg_loss: 0.888 [201/464]
+loc_loss: 0.014 | cls_loss: 0.901 | train_loss: 0.991 | avg_loss: 0.914 [301/464]
+loc_loss: 0.014 | cls_loss: 0.915 | train_loss: 1.235 | avg_loss: 0.929 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.587
+#################### avg_loss: 1.606 ####################
+
+Epoch: 93
+loc_loss: 0.015 | cls_loss: 0.908 | train_loss: 0.896 | avg_loss: 0.923 [1/464]
+loc_loss: 0.013 | cls_loss: 0.883 | train_loss: 0.830 | avg_loss: 0.896 [101/464]
+loc_loss: 0.013 | cls_loss: 0.883 | train_loss: 1.024 | avg_loss: 0.896 [201/464]
+loc_loss: 0.013 | cls_loss: 0.889 | train_loss: 0.983 | avg_loss: 0.901 [301/464]
+loc_loss: 0.014 | cls_loss: 0.909 | train_loss: 0.543 | avg_loss: 0.923 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.501
+#################### avg_loss: 1.519 ####################
+
+Epoch: 94
+loc_loss: 0.014 | cls_loss: 0.931 | train_loss: 1.116 | avg_loss: 0.945 [1/464]
+loc_loss: 0.013 | cls_loss: 0.831 | train_loss: 0.885 | avg_loss: 0.844 [101/464]
+loc_loss: 0.012 | cls_loss: 0.844 | train_loss: 0.618 | avg_loss: 0.856 [201/464]
+loc_loss: 0.014 | cls_loss: 0.941 | train_loss: 0.612 | avg_loss: 0.955 [301/464]
+loc_loss: 0.013 | cls_loss: 0.906 | train_loss: 0.822 | avg_loss: 0.919 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.510
+#################### avg_loss: 1.528 ####################
+
+Epoch: 95
+loc_loss: 0.013 | cls_loss: 0.869 | train_loss: 0.561 | avg_loss: 0.882 [1/464]
+loc_loss: 0.013 | cls_loss: 0.856 | train_loss: 0.952 | avg_loss: 0.870 [101/464]
+loc_loss: 0.013 | cls_loss: 0.916 | train_loss: 1.218 | avg_loss: 0.929 [201/464]
+loc_loss: 0.013 | cls_loss: 0.897 | train_loss: 0.467 | avg_loss: 0.910 [301/464]
+loc_loss: 0.013 | cls_loss: 0.893 | train_loss: 1.214 | avg_loss: 0.906 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.518
+#################### avg_loss: 1.536 ####################
+
+Epoch: 96
+loc_loss: 0.013 | cls_loss: 0.880 | train_loss: 0.857 | avg_loss: 0.893 [1/464]
+loc_loss: 0.013 | cls_loss: 0.855 | train_loss: 0.622 | avg_loss: 0.867 [101/464]
+loc_loss: 0.013 | cls_loss: 0.906 | train_loss: 0.721 | avg_loss: 0.919 [201/464]
+loc_loss: 0.013 | cls_loss: 0.909 | train_loss: 0.633 | avg_loss: 0.921 [301/464]
+loc_loss: 0.014 | cls_loss: 0.866 | train_loss: 0.462 | avg_loss: 0.880 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.528
+#################### avg_loss: 1.546 ####################
+
+Epoch: 97
+loc_loss: 0.013 | cls_loss: 0.832 | train_loss: 0.691 | avg_loss: 0.845 [1/464]
+loc_loss: 0.013 | cls_loss: 0.881 | train_loss: 0.788 | avg_loss: 0.894 [101/464]
+loc_loss: 0.013 | cls_loss: 0.882 | train_loss: 0.669 | avg_loss: 0.895 [201/464]
+loc_loss: 0.013 | cls_loss: 0.853 | train_loss: 0.878 | avg_loss: 0.866 [301/464]
+loc_loss: 0.013 | cls_loss: 0.867 | train_loss: 0.946 | avg_loss: 0.880 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.522
+#################### avg_loss: 1.541 ####################
+
+Epoch: 98
+loc_loss: 0.013 | cls_loss: 0.881 | train_loss: 0.799 | avg_loss: 0.894 [1/464]
+loc_loss: 0.014 | cls_loss: 0.874 | train_loss: 1.360 | avg_loss: 0.888 [101/464]
+loc_loss: 0.012 | cls_loss: 0.826 | train_loss: 0.735 | avg_loss: 0.837 [201/464]
+loc_loss: 0.013 | cls_loss: 0.920 | train_loss: 1.494 | avg_loss: 0.933 [301/464]
+loc_loss: 0.013 | cls_loss: 0.865 | train_loss: 1.079 | avg_loss: 0.878 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.527
+#################### avg_loss: 1.545 ####################
+
+Epoch: 99
+loc_loss: 0.012 | cls_loss: 0.843 | train_loss: 0.742 | avg_loss: 0.855 [1/464]
+loc_loss: 0.013 | cls_loss: 0.882 | train_loss: 0.725 | avg_loss: 0.895 [101/464]
+loc_loss: 0.013 | cls_loss: 0.848 | train_loss: 0.983 | avg_loss: 0.861 [201/464]
+loc_loss: 0.013 | cls_loss: 0.860 | train_loss: 0.636 | avg_loss: 0.873 [301/464]
+loc_loss: 0.012 | cls_loss: 0.859 | train_loss: 0.781 | avg_loss: 0.871 [401/464]
+
+Test
+loc_loss: 0.017 | cls_loss: 1.539
+#################### avg_loss: 1.557 ####################
+
+Epoch: 100
+loc_loss: 0.013 | cls_loss: 0.866 | train_loss: 0.850 | avg_loss: 0.878 [1/464]
+loc_loss: 0.013 | cls_loss: 0.891 | train_loss: 1.070 | avg_loss: 0.905 [101/464]
+loc_loss: 0.013 | cls_loss: 0.891 | train_loss: 0.849 | avg_loss: 0.904 [201/464]
+loc_loss: 0.013 | cls_loss: 0.892 | train_loss: 0.816 | avg_loss: 0.906 [301/464]
+loc_loss: 0.013 | cls_loss: 0.852 | train_loss: 0.713 | avg_loss: 0.866 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.544
+#################### avg_loss: 1.563 ####################
+
+Epoch: 101
+loc_loss: 0.012 | cls_loss: 0.844 | train_loss: 0.730 | avg_loss: 0.856 [1/464]
+loc_loss: 0.013 | cls_loss: 0.865 | train_loss: 0.784 | avg_loss: 0.877 [101/464]
+loc_loss: 0.012 | cls_loss: 0.857 | train_loss: 1.046 | avg_loss: 0.869 [201/464]
+loc_loss: 0.013 | cls_loss: 0.880 | train_loss: 0.842 | avg_loss: 0.893 [301/464]
+loc_loss: 0.013 | cls_loss: 0.858 | train_loss: 0.634 | avg_loss: 0.871 [401/464]
+
+Test
+loc_loss: 0.017 | cls_loss: 1.516
+#################### avg_loss: 1.533 ####################
+
+Epoch: 102
+loc_loss: 0.013 | cls_loss: 0.871 | train_loss: 1.045 | avg_loss: 0.884 [1/464]
+loc_loss: 0.012 | cls_loss: 0.904 | train_loss: 1.023 | avg_loss: 0.916 [101/464]
+loc_loss: 0.012 | cls_loss: 0.879 | train_loss: 1.130 | avg_loss: 0.892 [201/464]
+loc_loss: 0.014 | cls_loss: 0.838 | train_loss: 1.080 | avg_loss: 0.851 [301/464]
+loc_loss: 0.012 | cls_loss: 0.819 | train_loss: 0.591 | avg_loss: 0.831 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.563
+#################### avg_loss: 1.582 ####################
+
+Epoch: 103
+loc_loss: 0.012 | cls_loss: 0.850 | train_loss: 0.772 | avg_loss: 0.862 [1/464]
+loc_loss: 0.012 | cls_loss: 0.874 | train_loss: 0.912 | avg_loss: 0.886 [101/464]
+loc_loss: 0.012 | cls_loss: 0.846 | train_loss: 0.731 | avg_loss: 0.858 [201/464]
+loc_loss: 0.012 | cls_loss: 0.855 | train_loss: 0.842 | avg_loss: 0.867 [301/464]
+loc_loss: 0.012 | cls_loss: 0.837 | train_loss: 0.653 | avg_loss: 0.849 [401/464]
+
+Test
+loc_loss: 0.017 | cls_loss: 1.579
+#################### avg_loss: 1.597 ####################
+
+Epoch: 104
+loc_loss: 0.013 | cls_loss: 0.848 | train_loss: 0.632 | avg_loss: 0.861 [1/464]
+loc_loss: 0.013 | cls_loss: 0.858 | train_loss: 0.687 | avg_loss: 0.871 [101/464]
+loc_loss: 0.013 | cls_loss: 0.859 | train_loss: 0.897 | avg_loss: 0.872 [201/464]
+loc_loss: 0.013 | cls_loss: 0.906 | train_loss: 0.848 | avg_loss: 0.919 [301/464]
+loc_loss: 0.012 | cls_loss: 0.836 | train_loss: 0.532 | avg_loss: 0.848 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.612
+#################### avg_loss: 1.630 ####################
+
+Epoch: 105
+loc_loss: 0.012 | cls_loss: 0.822 | train_loss: 0.489 | avg_loss: 0.835 [1/464]
+loc_loss: 0.013 | cls_loss: 0.864 | train_loss: 1.056 | avg_loss: 0.877 [101/464]
+loc_loss: 0.012 | cls_loss: 0.843 | train_loss: 0.748 | avg_loss: 0.855 [201/464]
+loc_loss: 0.012 | cls_loss: 0.874 | train_loss: 0.745 | avg_loss: 0.887 [301/464]
+loc_loss: 0.012 | cls_loss: 0.837 | train_loss: 0.967 | avg_loss: 0.848 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.555
+#################### avg_loss: 1.573 ####################
+
+Epoch: 106
+loc_loss: 0.013 | cls_loss: 0.873 | train_loss: 1.022 | avg_loss: 0.886 [1/464]
+loc_loss: 0.012 | cls_loss: 0.830 | train_loss: 0.590 | avg_loss: 0.842 [101/464]
+loc_loss: 0.013 | cls_loss: 0.897 | train_loss: 1.060 | avg_loss: 0.910 [201/464]
+loc_loss: 0.012 | cls_loss: 0.864 | train_loss: 0.685 | avg_loss: 0.876 [301/464]
+loc_loss: 0.013 | cls_loss: 0.865 | train_loss: 1.050 | avg_loss: 0.878 [401/464]
+
+Test
+loc_loss: 0.017 | cls_loss: 1.504
+#################### avg_loss: 1.522 ####################
+
+Epoch: 107
+loc_loss: 0.013 | cls_loss: 0.850 | train_loss: 0.470 | avg_loss: 0.863 [1/464]
+loc_loss: 0.011 | cls_loss: 0.809 | train_loss: 1.166 | avg_loss: 0.820 [101/464]
+loc_loss: 0.012 | cls_loss: 0.847 | train_loss: 0.723 | avg_loss: 0.859 [201/464]
+loc_loss: 0.013 | cls_loss: 0.827 | train_loss: 0.992 | avg_loss: 0.840 [301/464]
+loc_loss: 0.013 | cls_loss: 0.884 | train_loss: 0.634 | avg_loss: 0.896 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.565
+#################### avg_loss: 1.584 ####################
+
+Epoch: 108
+loc_loss: 0.013 | cls_loss: 0.881 | train_loss: 0.812 | avg_loss: 0.893 [1/464]
+loc_loss: 0.013 | cls_loss: 0.895 | train_loss: 1.094 | avg_loss: 0.908 [101/464]
+loc_loss: 0.013 | cls_loss: 0.907 | train_loss: 0.961 | avg_loss: 0.920 [201/464]
+loc_loss: 0.013 | cls_loss: 0.851 | train_loss: 0.881 | avg_loss: 0.864 [301/464]
+loc_loss: 0.013 | cls_loss: 0.880 | train_loss: 0.526 | avg_loss: 0.893 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.647
+#################### avg_loss: 1.665 ####################
+
+Epoch: 109
+loc_loss: 0.014 | cls_loss: 0.853 | train_loss: 0.977 | avg_loss: 0.867 [1/464]
+loc_loss: 0.013 | cls_loss: 0.859 | train_loss: 1.026 | avg_loss: 0.872 [101/464]
+loc_loss: 0.012 | cls_loss: 0.848 | train_loss: 1.091 | avg_loss: 0.860 [201/464]
+loc_loss: 0.013 | cls_loss: 0.837 | train_loss: 0.698 | avg_loss: 0.849 [301/464]
+loc_loss: 0.012 | cls_loss: 0.809 | train_loss: 0.676 | avg_loss: 0.822 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.628
+#################### avg_loss: 1.647 ####################
+
+Epoch: 110
+loc_loss: 0.012 | cls_loss: 0.821 | train_loss: 1.042 | avg_loss: 0.833 [1/464]
+loc_loss: 0.012 | cls_loss: 0.845 | train_loss: 0.876 | avg_loss: 0.857 [101/464]
+loc_loss: 0.012 | cls_loss: 0.810 | train_loss: 0.686 | avg_loss: 0.822 [201/464]
+loc_loss: 0.011 | cls_loss: 0.799 | train_loss: 0.705 | avg_loss: 0.810 [301/464]
+loc_loss: 0.014 | cls_loss: 0.827 | train_loss: 0.758 | avg_loss: 0.841 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.529
+#################### avg_loss: 1.548 ####################
+
+Epoch: 111
+loc_loss: 0.012 | cls_loss: 0.841 | train_loss: 1.042 | avg_loss: 0.853 [1/464]
+loc_loss: 0.012 | cls_loss: 0.831 | train_loss: 0.666 | avg_loss: 0.843 [101/464]
+loc_loss: 0.013 | cls_loss: 0.909 | train_loss: 1.180 | avg_loss: 0.922 [201/464]
+loc_loss: 0.012 | cls_loss: 0.850 | train_loss: 0.680 | avg_loss: 0.862 [301/464]
+loc_loss: 0.013 | cls_loss: 0.858 | train_loss: 1.197 | avg_loss: 0.871 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.519
+#################### avg_loss: 1.537 ####################
+
+Epoch: 112
+loc_loss: 0.013 | cls_loss: 0.884 | train_loss: 0.579 | avg_loss: 0.896 [1/464]
+loc_loss: 0.015 | cls_loss: 0.864 | train_loss: 0.881 | avg_loss: 0.880 [101/464]
+loc_loss: 0.012 | cls_loss: 0.782 | train_loss: 0.828 | avg_loss: 0.794 [201/464]
+loc_loss: 0.012 | cls_loss: 0.861 | train_loss: 1.005 | avg_loss: 0.873 [301/464]
+loc_loss: 0.014 | cls_loss: 0.886 | train_loss: 1.231 | avg_loss: 0.900 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.529
+#################### avg_loss: 1.547 ####################
+
+Epoch: 113
+loc_loss: 0.013 | cls_loss: 0.855 | train_loss: 0.949 | avg_loss: 0.868 [1/464]
+loc_loss: 0.012 | cls_loss: 0.785 | train_loss: 0.978 | avg_loss: 0.797 [101/464]
+loc_loss: 0.012 | cls_loss: 0.822 | train_loss: 0.913 | avg_loss: 0.834 [201/464]
+loc_loss: 0.012 | cls_loss: 0.859 | train_loss: 0.706 | avg_loss: 0.871 [301/464]
+loc_loss: 0.012 | cls_loss: 0.837 | train_loss: 0.823 | avg_loss: 0.849 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.582
+#################### avg_loss: 1.600 ####################
+
+Epoch: 114
+loc_loss: 0.012 | cls_loss: 0.913 | train_loss: 0.594 | avg_loss: 0.925 [1/464]
+loc_loss: 0.013 | cls_loss: 0.829 | train_loss: 0.557 | avg_loss: 0.842 [101/464]
+loc_loss: 0.012 | cls_loss: 0.842 | train_loss: 1.127 | avg_loss: 0.854 [201/464]
+loc_loss: 0.012 | cls_loss: 0.828 | train_loss: 0.840 | avg_loss: 0.840 [301/464]
+loc_loss: 0.013 | cls_loss: 0.865 | train_loss: 0.740 | avg_loss: 0.878 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.523
+#################### avg_loss: 1.540 ####################
+
+Epoch: 115
+loc_loss: 0.013 | cls_loss: 0.851 | train_loss: 0.760 | avg_loss: 0.864 [1/464]
+loc_loss: 0.012 | cls_loss: 0.843 | train_loss: 0.558 | avg_loss: 0.856 [101/464]
+loc_loss: 0.012 | cls_loss: 0.816 | train_loss: 0.530 | avg_loss: 0.828 [201/464]
+loc_loss: 0.012 | cls_loss: 0.844 | train_loss: 0.749 | avg_loss: 0.855 [301/464]
+loc_loss: 0.013 | cls_loss: 0.875 | train_loss: 0.964 | avg_loss: 0.888 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.541
+#################### avg_loss: 1.561 ####################
+
+Epoch: 116
+loc_loss: 0.013 | cls_loss: 0.902 | train_loss: 0.541 | avg_loss: 0.915 [1/464]
+loc_loss: 0.011 | cls_loss: 0.798 | train_loss: 1.178 | avg_loss: 0.809 [101/464]
+loc_loss: 0.011 | cls_loss: 0.809 | train_loss: 0.507 | avg_loss: 0.821 [201/464]
+loc_loss: 0.013 | cls_loss: 0.847 | train_loss: 0.943 | avg_loss: 0.860 [301/464]
+loc_loss: 0.013 | cls_loss: 0.829 | train_loss: 0.757 | avg_loss: 0.842 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.598
+#################### avg_loss: 1.616 ####################
+
+Epoch: 117
+loc_loss: 0.014 | cls_loss: 0.868 | train_loss: 0.654 | avg_loss: 0.881 [1/464]
+loc_loss: 0.012 | cls_loss: 0.804 | train_loss: 0.667 | avg_loss: 0.816 [101/464]
+loc_loss: 0.012 | cls_loss: 0.852 | train_loss: 0.850 | avg_loss: 0.864 [201/464]
+loc_loss: 0.012 | cls_loss: 0.812 | train_loss: 0.764 | avg_loss: 0.824 [301/464]
+loc_loss: 0.011 | cls_loss: 0.814 | train_loss: 1.179 | avg_loss: 0.825 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.561
+#################### avg_loss: 1.578 ####################
+
+Epoch: 118
+loc_loss: 0.012 | cls_loss: 0.809 | train_loss: 0.889 | avg_loss: 0.821 [1/464]
+loc_loss: 0.013 | cls_loss: 0.831 | train_loss: 1.279 | avg_loss: 0.844 [101/464]
+loc_loss: 0.012 | cls_loss: 0.830 | train_loss: 0.859 | avg_loss: 0.842 [201/464]
+loc_loss: 0.011 | cls_loss: 0.780 | train_loss: 0.787 | avg_loss: 0.791 [301/464]
+loc_loss: 0.011 | cls_loss: 0.773 | train_loss: 0.613 | avg_loss: 0.784 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.533
+#################### avg_loss: 1.551 ####################
+
+Epoch: 119
+loc_loss: 0.011 | cls_loss: 0.783 | train_loss: 0.697 | avg_loss: 0.794 [1/464]
+loc_loss: 0.012 | cls_loss: 0.827 | train_loss: 0.882 | avg_loss: 0.839 [101/464]
+loc_loss: 0.012 | cls_loss: 0.836 | train_loss: 0.893 | avg_loss: 0.848 [201/464]
+loc_loss: 0.012 | cls_loss: 0.803 | train_loss: 0.748 | avg_loss: 0.815 [301/464]
+loc_loss: 0.012 | cls_loss: 0.834 | train_loss: 0.744 | avg_loss: 0.846 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.584
+#################### avg_loss: 1.602 ####################
+
+Epoch: 120
+loc_loss: 0.011 | cls_loss: 0.791 | train_loss: 0.740 | avg_loss: 0.802 [1/464]
+loc_loss: 0.011 | cls_loss: 0.813 | train_loss: 0.490 | avg_loss: 0.824 [101/464]
+loc_loss: 0.012 | cls_loss: 0.818 | train_loss: 0.807 | avg_loss: 0.829 [201/464]
+loc_loss: 0.012 | cls_loss: 0.792 | train_loss: 0.638 | avg_loss: 0.803 [301/464]
+loc_loss: 0.012 | cls_loss: 0.848 | train_loss: 1.015 | avg_loss: 0.860 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.571
+#################### avg_loss: 1.589 ####################
+
+Epoch: 121
+loc_loss: 0.011 | cls_loss: 0.841 | train_loss: 0.834 | avg_loss: 0.852 [1/464]
+loc_loss: 0.013 | cls_loss: 0.852 | train_loss: 0.875 | avg_loss: 0.865 [101/464]
+loc_loss: 0.011 | cls_loss: 0.749 | train_loss: 0.793 | avg_loss: 0.760 [201/464]
+loc_loss: 0.011 | cls_loss: 0.852 | train_loss: 0.738 | avg_loss: 0.863 [301/464]
+loc_loss: 0.011 | cls_loss: 0.814 | train_loss: 0.722 | avg_loss: 0.825 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.620
+#################### avg_loss: 1.639 ####################
+
+Epoch: 122
+loc_loss: 0.012 | cls_loss: 0.794 | train_loss: 0.900 | avg_loss: 0.807 [1/464]
+loc_loss: 0.012 | cls_loss: 0.762 | train_loss: 0.870 | avg_loss: 0.774 [101/464]
+loc_loss: 0.011 | cls_loss: 0.802 | train_loss: 0.699 | avg_loss: 0.814 [201/464]
+loc_loss: 0.012 | cls_loss: 0.850 | train_loss: 1.193 | avg_loss: 0.862 [301/464]
+loc_loss: 0.012 | cls_loss: 0.825 | train_loss: 1.259 | avg_loss: 0.837 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.581
+#################### avg_loss: 1.599 ####################
+
+Epoch: 123
+loc_loss: 0.012 | cls_loss: 0.843 | train_loss: 0.627 | avg_loss: 0.855 [1/464]
+loc_loss: 0.011 | cls_loss: 0.770 | train_loss: 0.785 | avg_loss: 0.780 [101/464]
+loc_loss: 0.011 | cls_loss: 0.794 | train_loss: 1.017 | avg_loss: 0.806 [201/464]
+loc_loss: 0.011 | cls_loss: 0.772 | train_loss: 0.720 | avg_loss: 0.783 [301/464]
+loc_loss: 0.011 | cls_loss: 0.800 | train_loss: 0.802 | avg_loss: 0.812 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.610
+#################### avg_loss: 1.629 ####################
+
+Epoch: 124
+loc_loss: 0.011 | cls_loss: 0.760 | train_loss: 0.588 | avg_loss: 0.771 [1/464]
+loc_loss: 0.012 | cls_loss: 0.791 | train_loss: 1.041 | avg_loss: 0.803 [101/464]
+loc_loss: 0.012 | cls_loss: 0.859 | train_loss: 0.765 | avg_loss: 0.871 [201/464]
+loc_loss: 0.012 | cls_loss: 0.848 | train_loss: 1.120 | avg_loss: 0.861 [301/464]
+loc_loss: 0.011 | cls_loss: 0.793 | train_loss: 0.949 | avg_loss: 0.804 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.559
+#################### avg_loss: 1.577 ####################
+
+Epoch: 125
+loc_loss: 0.013 | cls_loss: 0.823 | train_loss: 0.512 | avg_loss: 0.835 [1/464]
+loc_loss: 0.012 | cls_loss: 0.789 | train_loss: 0.856 | avg_loss: 0.801 [101/464]
+loc_loss: 0.012 | cls_loss: 0.791 | train_loss: 0.745 | avg_loss: 0.803 [201/464]
+loc_loss: 0.011 | cls_loss: 0.819 | train_loss: 0.682 | avg_loss: 0.830 [301/464]
+loc_loss: 0.011 | cls_loss: 0.764 | train_loss: 0.801 | avg_loss: 0.775 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.706
+#################### avg_loss: 1.725 ####################
+
+Epoch: 126
+loc_loss: 0.011 | cls_loss: 0.735 | train_loss: 0.913 | avg_loss: 0.745 [1/464]
+loc_loss: 0.011 | cls_loss: 0.779 | train_loss: 0.598 | avg_loss: 0.790 [101/464]
+loc_loss: 0.011 | cls_loss: 0.780 | train_loss: 0.904 | avg_loss: 0.791 [201/464]
+loc_loss: 0.011 | cls_loss: 0.796 | train_loss: 0.854 | avg_loss: 0.807 [301/464]
+loc_loss: 0.012 | cls_loss: 0.822 | train_loss: 0.694 | avg_loss: 0.834 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.602
+#################### avg_loss: 1.620 ####################
+
+Epoch: 127
+loc_loss: 0.011 | cls_loss: 0.799 | train_loss: 1.059 | avg_loss: 0.810 [1/464]
+loc_loss: 0.010 | cls_loss: 0.742 | train_loss: 0.788 | avg_loss: 0.753 [101/464]
+loc_loss: 0.011 | cls_loss: 0.784 | train_loss: 0.960 | avg_loss: 0.795 [201/464]
+loc_loss: 0.012 | cls_loss: 0.822 | train_loss: 0.604 | avg_loss: 0.833 [301/464]
+loc_loss: 0.012 | cls_loss: 0.785 | train_loss: 0.771 | avg_loss: 0.798 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.593
+#################### avg_loss: 1.612 ####################
+
+Epoch: 128
+loc_loss: 0.012 | cls_loss: 0.817 | train_loss: 0.596 | avg_loss: 0.830 [1/464]
+loc_loss: 0.012 | cls_loss: 0.798 | train_loss: 0.566 | avg_loss: 0.809 [101/464]
+loc_loss: 0.011 | cls_loss: 0.805 | train_loss: 0.719 | avg_loss: 0.816 [201/464]
+loc_loss: 0.011 | cls_loss: 0.809 | train_loss: 0.567 | avg_loss: 0.820 [301/464]
+loc_loss: 0.011 | cls_loss: 0.807 | train_loss: 0.940 | avg_loss: 0.818 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.633
+#################### avg_loss: 1.651 ####################
+
+Epoch: 129
+loc_loss: 0.012 | cls_loss: 0.832 | train_loss: 0.936 | avg_loss: 0.844 [1/464]
+loc_loss: 0.011 | cls_loss: 0.781 | train_loss: 0.658 | avg_loss: 0.792 [101/464]
+loc_loss: 0.011 | cls_loss: 0.807 | train_loss: 0.733 | avg_loss: 0.818 [201/464]
+loc_loss: 0.011 | cls_loss: 0.765 | train_loss: 0.700 | avg_loss: 0.776 [301/464]
+loc_loss: 0.012 | cls_loss: 0.825 | train_loss: 0.964 | avg_loss: 0.837 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.620
+#################### avg_loss: 1.638 ####################
+
+Epoch: 130
+loc_loss: 0.012 | cls_loss: 0.804 | train_loss: 0.689 | avg_loss: 0.815 [1/464]
+loc_loss: 0.010 | cls_loss: 0.762 | train_loss: 0.758 | avg_loss: 0.773 [101/464]
+loc_loss: 0.011 | cls_loss: 0.780 | train_loss: 0.379 | avg_loss: 0.791 [201/464]
+loc_loss: 0.011 | cls_loss: 0.754 | train_loss: 0.739 | avg_loss: 0.765 [301/464]
+loc_loss: 0.011 | cls_loss: 0.775 | train_loss: 1.228 | avg_loss: 0.786 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.650
+#################### avg_loss: 1.669 ####################
+
+Epoch: 131
+loc_loss: 0.011 | cls_loss: 0.780 | train_loss: 1.098 | avg_loss: 0.791 [1/464]
+loc_loss: 0.011 | cls_loss: 0.800 | train_loss: 0.825 | avg_loss: 0.811 [101/464]
+loc_loss: 0.012 | cls_loss: 0.806 | train_loss: 0.595 | avg_loss: 0.818 [201/464]
+loc_loss: 0.011 | cls_loss: 0.736 | train_loss: 1.028 | avg_loss: 0.746 [301/464]
+loc_loss: 0.011 | cls_loss: 0.780 | train_loss: 0.328 | avg_loss: 0.791 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.544
+#################### avg_loss: 1.561 ####################
+
+Epoch: 132
+loc_loss: 0.011 | cls_loss: 0.793 | train_loss: 0.681 | avg_loss: 0.804 [1/464]
+loc_loss: 0.011 | cls_loss: 0.754 | train_loss: 0.573 | avg_loss: 0.765 [101/464]
+loc_loss: 0.011 | cls_loss: 0.785 | train_loss: 1.036 | avg_loss: 0.796 [201/464]
+loc_loss: 0.011 | cls_loss: 0.785 | train_loss: 1.181 | avg_loss: 0.796 [301/464]
+loc_loss: 0.012 | cls_loss: 0.841 | train_loss: 0.940 | avg_loss: 0.853 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.640
+#################### avg_loss: 1.659 ####################
+
+Epoch: 133
+loc_loss: 0.012 | cls_loss: 0.782 | train_loss: 0.844 | avg_loss: 0.794 [1/464]
+loc_loss: 0.011 | cls_loss: 0.788 | train_loss: 1.191 | avg_loss: 0.799 [101/464]
+loc_loss: 0.011 | cls_loss: 0.756 | train_loss: 0.881 | avg_loss: 0.767 [201/464]
+loc_loss: 0.011 | cls_loss: 0.750 | train_loss: 0.560 | avg_loss: 0.761 [301/464]
+loc_loss: 0.011 | cls_loss: 0.790 | train_loss: 0.823 | avg_loss: 0.801 [401/464]
+
+Test
+loc_loss: 0.019 | cls_loss: 1.666
+#################### avg_loss: 1.685 ####################
+
+Epoch: 134
+loc_loss: 0.011 | cls_loss: 0.787 | train_loss: 0.482 | avg_loss: 0.798 [1/464]
+loc_loss: 0.012 | cls_loss: 0.759 | train_loss: 0.482 | avg_loss: 0.770 [101/464]
+loc_loss: 0.011 | cls_loss: 0.807 | train_loss: 1.529 | avg_loss: 0.819 [201/464]
+loc_loss: 0.011 | cls_loss: 0.784 | train_loss: 1.083 | avg_loss: 0.796 [301/464]
+loc_loss: 0.012 | cls_loss: 0.808 | train_loss: 0.602 | avg_loss: 0.820 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.608
+#################### avg_loss: 1.625 ####################
+
+Epoch: 135
+loc_loss: 0.012 | cls_loss: 0.779 | train_loss: 0.789 | avg_loss: 0.791 [1/464]
+loc_loss: 0.011 | cls_loss: 0.811 | train_loss: 0.546 | avg_loss: 0.822 [101/464]
+loc_loss: 0.011 | cls_loss: 0.757 | train_loss: 0.589 | avg_loss: 0.768 [201/464]
+loc_loss: 0.012 | cls_loss: 0.775 | train_loss: 1.332 | avg_loss: 0.786 [301/464]
+loc_loss: 0.012 | cls_loss: 0.781 | train_loss: 1.193 | avg_loss: 0.792 [401/464]
+
+Test
+loc_loss: 0.018 | cls_loss: 1.643
+#################### avg_loss: 1.661 ####################
+
+Epoch: 136
+loc_loss: 0.011 | cls_loss: 0.781 | train_loss: 0.621 | avg_loss: 0.792 [1/464]
+loc_loss: 0.010 | cls_loss: 0.756 | train_loss: 0.585 | avg_loss: 0.767 [101/464]
+loc_loss: 0.011 | cls_loss: 0.764 | train_loss: 0.788 | avg_loss: 0.776 [201/464]
+loc_loss: 0.011 | cls_loss: 0.796 | train_loss: 0.626 | avg_loss: 0.807 [301/464]
+loc_loss: 0.011 | cls_loss: 0.762 | train_loss: 0.589 | avg_loss: 0.773 [401/464]
+
+Test
