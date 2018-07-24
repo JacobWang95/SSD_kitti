@@ -134,6 +134,8 @@ def train(epoch):
     log_string('\nEpoch: %d' % epoch)
     net.train()
     # train_loss = 0
+    if (epoch+1) % 80 == 0: #and optimizer.param_groups[0]['lr'] >= (BASE_LEARNING_RATE / 10.0):
+        optimizer.param_groups[0]['lr'] = optimizer.param_groups[0]['lr']/10.0
     for batch_idx, (inputs, loc_targets, cls_targets) in enumerate(trainloader):
         # pdb.set_trace()
         inputs = inputs.to(device)

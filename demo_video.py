@@ -54,7 +54,7 @@ for i in range(400):
 	box_coder = FPNSSDBoxCoder()
 	loc_preds = loc_preds.squeeze().cpu()
 	cls_preds = F.softmax(cls_preds.squeeze(), dim=1).cpu()
-	boxes, labels, scores = box_coder.decode(loc_preds, cls_preds, score_thresh=0.2, nms_thresh=0.3)
+	boxes, labels, scores = box_coder.decode(loc_preds, cls_preds, score_thresh=0.4, nms_thresh=0.3)
 	print labels
 	# print img_ori.size
 
