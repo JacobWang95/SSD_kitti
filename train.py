@@ -26,6 +26,7 @@ from utils import Bar, Logger, AverageMeter, accuracy, mkdir_p, savefig, MovingA
 
 import shutil
 import pdb
+from path import *
 
 parser = argparse.ArgumentParser(description='PyTorch FPNSSD Training')
 parser.add_argument('--gpu', default='0', help='GPU to use [default: GPU 0]')
@@ -78,7 +79,7 @@ def transform_train(img, boxes, labels):
     boxes, labels = box_coder.encode(boxes, labels)
     return img, boxes, labels
 
-trainset = ListDataset(root='/data/kitti/3dd/training/image_2',    \
+trainset = ListDataset(root=path_img,    \
                        list_file='torchcv/datasets/kitti/kitti12_train2.txt', \
                        transform=transform_train)
 
@@ -92,7 +93,7 @@ def transform_test(img, boxes, labels):
     boxes, labels = box_coder.encode(boxes, labels)
     return img, boxes, labels
 
-testset = ListDataset(root='/data/kitti/3dd/training/image_2',  \
+testset = ListDataset(root=path_img,  \
                       list_file='torchcv/datasets/kitti/kitti12_val2.txt', \
                       transform=transform_test)
 
